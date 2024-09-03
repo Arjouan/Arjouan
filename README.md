@@ -1,4 +1,4 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Arnaud
+Hi ! My name is Arnaud[](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)
 ==============================================================================================================================
 
 Second year computer science engineer at Epitech
@@ -6,9 +6,9 @@ Second year computer science engineer at Epitech
 
 \--
 
-*   🌍  I'm based in France/Marseille
+*   🌍  based in France/Marseille
 *   ✉️  You can contact me at [arnaud.jouan@epitech.eu](mailto:arnaud.jouan@epitech.eu)
-*   🧠  I'm learning c and java
+*   🧠  Currently learning c and java
 
 ### Skills 
 <p align="left">
