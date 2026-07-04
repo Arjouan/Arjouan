@@ -34,7 +34,11 @@
 ## Mon parcours
 
 <p align="center">
-  🇸🇬 Singapour &nbsp;✈️&nbsp; 🇻🇳 Vietnam &nbsp;✈️&nbsp; 🇦🇺 Australie &nbsp;✈️&nbsp; 🇫🇷 France &nbsp;✈️&nbsp; 🇨🇦 Canada <sub>(bientôt)</sub>
+  <img src="journey.svg" alt="Un avion suivant un itinéraire" width="80%" />
+</p>
+
+<p align="center">
+  🇸🇬 Singapour &nbsp;→&nbsp; 🇻🇳 Vietnam &nbsp;→&nbsp; 🇦🇺 Australie &nbsp;→&nbsp; 🇫🇷 France &nbsp;→&nbsp; 🇨🇦 Canada <sub>(bientôt)</sub>
 </p>
 
 ## Technologies

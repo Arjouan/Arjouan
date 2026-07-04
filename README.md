@@ -34,7 +34,11 @@
 ## My Journey
 
 <p align="center">
-  🇸🇬 Singapore &nbsp;✈️&nbsp; 🇻🇳 Vietnam &nbsp;✈️&nbsp; 🇦🇺 Australia &nbsp;✈️&nbsp; 🇫🇷 France &nbsp;✈️&nbsp; 🇨🇦 Canada <sub>(soon)</sub>
+  <img src="journey.svg" alt="A plane flying along a route" width="80%" />
+</p>
+
+<p align="center">
+  🇸🇬 Singapore &nbsp;→&nbsp; 🇻🇳 Vietnam &nbsp;→&nbsp; 🇦🇺 Australia &nbsp;→&nbsp; 🇫🇷 France &nbsp;→&nbsp; 🇨🇦 Canada <sub>(soon)</sub>
 </p>
 
 ## Tech Stack
