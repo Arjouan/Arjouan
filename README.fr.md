@@ -37,10 +37,6 @@
   <img src="journey.fr.svg" alt="Itinéraire : Singapour, Vietnam, Australie, France, Canada" width="90%" />
 </p>
 
-<p align="center">
-  🇸🇬 &nbsp; 🇻🇳 &nbsp; 🇦🇺 &nbsp; 🇫🇷 &nbsp; 🇨🇦
-</p>
-
 ## Technologies
 
 <p align="left">
@@ -54,6 +50,10 @@
 
 ## Expérience en stage
 
+<p align="center">
+  <img src="passport-stamps.svg" alt="Tampons de stage : REACTIS, BARJANE, CPAM" width="80%" />
+</p>
+
 <h3>
   <img src="https://www.google.com/s2/favicons?domain=reactis.fr&sz=64" alt="Logo REACTIS Group" width="28" style="vertical-align: middle;" />
   REACTIS Group
@@ -61,10 +61,12 @@
 
 - Rôle : Stagiaire développeur logiciel
 - Période : mars 2026 - aujourd'hui
-- Objectif : Développement Java, livraison en équipe et code prêt pour la production
+- Projet : Application de maintenance aéronautique
+- Objectif : Développer et maintenir des fonctionnalités Java en production, avec un code propre et testable
 - Points forts :
-  - Contribution à des fonctionnalités logicielles réelles dans un environnement agile
-  - Renforcement des compétences en développement backend via un travail d'implémentation axé Java
+  - Développement et livraison de fonctionnalités en équipe agile, contribution aux sprints
+  - Contribution à la qualité via des revues de code et la correction de bugs
+- Environnement technique : Java, SQL, Neo4j, Python
 
 <h3>
   <img src="https://www.google.com/s2/favicons?domain=barjane.fr&sz=64" alt="Logo BARJANE" width="28" style="vertical-align: middle;" />

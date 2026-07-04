@@ -37,10 +37,6 @@
   <img src="journey.svg" alt="Flight route: Singapore, Vietnam, Australia, France, Canada" width="90%" />
 </p>
 
-<p align="center">
-  🇸🇬 &nbsp; 🇻🇳 &nbsp; 🇦🇺 &nbsp; 🇫🇷 &nbsp; 🇨🇦
-</p>
-
 ## Tech Stack
 
 <p align="left">
@@ -54,6 +50,10 @@
 
 ## Internship Experience
 
+<p align="center">
+  <img src="passport-stamps.svg" alt="Internship stamps: REACTIS, BARJANE, CPAM" width="80%" />
+</p>
+
 <h3>
   <img src="https://www.google.com/s2/favicons?domain=reactis.fr&sz=64" alt="REACTIS Group logo" width="28" style="vertical-align: middle;" />
   REACTIS Group
@@ -61,10 +61,12 @@
 
 - Role: Software Developer Intern
 - Period: Mar 2026 - Present
-- Focus: Java development, team delivery, and production-ready code
+- Project: Aeronautical maintenance application
+- Focus: Developing and maintaining production Java features with clean, testable code
 - Highlights:
-  - Contributing to real-world software features in an agile environment
-  - Strengthening backend development skills through Java-focused implementation work
+  - Building and shipping features in an agile team and supporting sprint delivery
+  - Contributing to code quality through code reviews and bug fixing
+- Tech Environment: Java, SQL, Neo4j, Python
 
 <h3>
   <img src="https://www.google.com/s2/favicons?domain=barjane.fr&sz=64" alt="BARJANE logo" width="28" style="vertical-align: middle;" />
