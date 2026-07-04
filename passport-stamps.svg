@@ -1,41 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 150" width="720" role="img" aria-label="Internship stamps: REACTIS, BARJANE, CPAM">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 165" width="720" role="img" aria-label="Internship stamps: REACTIS, BARJANE, CPAM">
   <defs>
     <linearGradient id="pg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#00c6ff"/>
       <stop offset="1" stop-color="#00f5a0"/>
     </linearGradient>
   </defs>
-
-  <!-- REACTIS -->
-  <g transform="translate(130,72) rotate(-8)">
+  <g transform="translate(130,82) rotate(-8)">
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.2s" fill="freeze"/>
       <animateTransform attributeName="transform" type="scale" values="1.6;1" dur="0.35s" begin="0.2s" fill="freeze"/>
-      <rect x="-52" y="-46" width="104" height="92" rx="10" fill="none" stroke="url(#pg)" stroke-width="3"/>
-      <text y="-4" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#4aa8ff">REACTIS</text>
-      <text y="20" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#8b98a5">2026</text>
+      <rect x="-52" y="-52" width="104" height="104" rx="10" fill="none" stroke="url(#pg)" stroke-width="3"/>
+      <image href="data:image/png;base64,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" x="-18" y="-44" width="36" height="36"/>
+      <text y="12" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#4aa8ff">REACTIS</text>
+      <text y="32" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8b98a5">2026</text>
     </g>
   </g>
-
-  <!-- BARJANE -->
-  <g transform="translate(360,72) rotate(6)">
+  <g transform="translate(360,82) rotate(6)">
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.55s" fill="freeze"/>
       <animateTransform attributeName="transform" type="scale" values="1.6;1" dur="0.35s" begin="0.55s" fill="freeze"/>
-      <rect x="-52" y="-46" width="104" height="92" rx="10" fill="none" stroke="url(#pg)" stroke-width="3"/>
-      <text y="-4" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#4aa8ff">BARJANE</text>
-      <text y="20" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#8b98a5">2025</text>
+      <rect x="-52" y="-52" width="104" height="104" rx="10" fill="none" stroke="url(#pg)" stroke-width="3"/>
+      <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAmVBMVEUeKX3////ufzR0tDAAAHJ2ty0VInoUJn4XHIBcjU1hQm32gy8JJnxaik/8/P7u7/ZXXZicn78BF3fn6PAACHQAD3WXmrzS1OItOIYZIX86QoqHUWIsL3gkMnd4uylIbGG9v9VPVpN0eaitsMqkp8QAAGmOkrfb3OjEx9prcKNiaJ5GTZCFirImMYF8gKz/hydfkkk8M3c7WGplfpfLAAADrUlEQVR4nO2Z63LbNhBGuQ0CJHEqSCAgiUzaUHeajp3L+z9cdkHcKDoeT6aetJ09PzyihMvh4gMo21XFMAzDMAzDMAzDMAzDMAzDMCNSZJxKbxu8iq9dbmFl2dcKU4wS322KrkZY/KmKOVKX2HMJi4jut3F8cwbobZhmk5tslkV/oWE1XsoWmwQDswbo4usVaFGpbR5gAZ2rSlCgZBtqIGq8UCoKFNw2jwi4A36yb5IA3JqpQMEjAnVggXftCq21SRXILRap1IWAwA/gIrIASDUViHPU+mhmAjaszqkHGAexHeie+gaB7hSa4J0OcibQPACsAFoVBFBnI6YC7RMZgErl16GMAMcdwFJGgVg2AXBOIyQBcYH6BHAwQUBjgj6bicBukt5rgYC5BfAzUQS3OPwYw4lAqnpxoVrUEl1YHRI41WOcCgEjibzNSgFjHWG3OqwjRnAjsDOkCgjfXTbNYxUwRxSXdyGGJCBo1UUpsF962pnB1S7wlZI7GktVIYYo0N/tPMMF4G6WAeH3lreOAuYzLqKd74KVeVpAtzS6G6spNv4urrbhZbYLmr0Xpzl92UmAOuObzxTYRHCT0WJTBIVzYjnGcCJQ36trARI94RJiQGmLjQJKLkDbLHA4eoZZFknACesRWPqHxt9K3xF4algvUB8IvD4IukdnCgEa/uKba1+4UcAnujslgTtniPleKLchLSPegz8FI00IIXZ2OKEfetWPR9QoQBHM56SMAhVuCxjWz9uGUeCk4eAoghnMfNqGtNh47foxGxQ+vPSnYARjGAUqixV53jkQT0JxppRQBO9bz72PYT4HsDYL68/aJZZE7CkjEks9jM23+MG9SgLjncxOQjEXSA8qoE3mcKWd8hif7ywgB9qZPtTded1DiHstxubU9WiSQGWPWaB4HM4FCg6WItjGevkdXpyEeOYCrsEqNh8kDZ6OJttjDOlZIFKm5k/DvOKjwE6n51Td3wpcYd2nKpmV1o3r9MFEXa3PTUVrRVtywAiutU7LKwetB3fWl/BNQrWaXqttmoOmuQ5B+Y3IH0OieGAbWjKXn2DY2h+3dvmwb4WMLYqPJX4jssX17BvRVQZ+Fdk88mBhGIZhGIZhmH8lquTlp/s4gd74q+TjC0+v3n25Kfjyvnrz9e+St29eWuDmj4IbFHj7+lXm9Z8swAIswAIswAIswAIswAIswAIs8P8X+M2/nFbfPkyoKvn9U8n3n/0D9x9DXf89QjYlLz4/wzDMf4ofTrFsXXr9dVwAAAAASUVORK5CYII=" x="-18" y="-44" width="36" height="36"/>
+      <text y="12" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#4aa8ff">BARJANE</text>
+      <text y="32" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8b98a5">2025</text>
     </g>
   </g>
-
-  <!-- CPAM -->
-  <g transform="translate(590,72) rotate(-5)">
+  <g transform="translate(590,82) rotate(-5)">
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.9s" fill="freeze"/>
       <animateTransform attributeName="transform" type="scale" values="1.6;1" dur="0.35s" begin="0.9s" fill="freeze"/>
-      <rect x="-52" y="-46" width="104" height="92" rx="10" fill="none" stroke="url(#pg)" stroke-width="3"/>
-      <text y="-4" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#4aa8ff">CPAM</text>
-      <text y="20" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#8b98a5">2024</text>
+      <rect x="-52" y="-52" width="104" height="104" rx="10" fill="none" stroke="url(#pg)" stroke-width="3"/>
+      <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAclBMVEX///8MQZr7/P3t8fcUR53x9Pno7fUPQ5tHb7IsWqf3+fsxXqlVerg0YKqasNXe5fG8y+McTaA5ZKxCa7CcstZqi8Fgg72Hoc2Dnsu6yeIiUqN6l8exwt6Nps9xkMTY4O7F0ueou9vN2OpSd7dkhr5bf7uBuq8cAAAC/0lEQVRYhe1W2dqjIAwliKLWurcqrri8/ysOi1X6T+0y/81cNBftB5JDODkJIPS1r/3PNpzS/lcAGcBUBunZDa22sv8B4ALCkspHGMdtEHD/Q38Ht5MH0K5DO3TbTyCiiSM8iCCIc5vCeTa+7d9MEUKLPANURlBL+KZ/PotoY+V/vtHXWxbCdfmWP79g8XtNobR6fJscT1fxW4RobKwX/mMgvThpU2xO11Ru71QAzHnsuJrtqh2a0svlv7OhVFRSIOQB+VOA2qCtLxl4W/ZCWjjoBECfKjRaDH8ieYy3cQk0OwNcngqiMZKtxAjuTkXD1EzS4gee2uLQiC/Qy43PtsaE4AhhENrbA4zU4uu22O99W02RTeI/jYuv0T5sO7HjZQ515jljna8AYo8dAPiCZCPLmKf6FLXlNxkrYmSpMS+SA4AhhcCo/fXEVARNYJZx9GqiroOH7lg5eFsIufYHVtVpprOpK8QNHmupSxLJ0C1vIwGWKIdhWxKqsUeahwCslUItaa1GkQeuMygK9sRcdUze48IOmSc7QEhFknBLlOTE+SHdlwiShZimLnoIgArFEIpZnqeQyjCVFNx9BQFSyiVH5oLqYg6QqyZNtaXL9l3IIAiflWMNCYFSxL8KulInLswjzNwk9YfZgrMazvtEp3XQbdqoIeV3Wrv3J10CUQq7lOpVCadbjcaCGjiSoUg8A2oXsDU9i60AQNfqsWAZzRDvre/8uEIh2cpvVrtrMc16lpU+SY8AtOVbhFw1dssuFcSsIkhqlL0A4LTTZxhkRztLwuwi0XfMeBIa6LLnAMjijkyIcnJXPmxBZ4Z8NxMos/cCQG4eUEVdvVfB+XbNNfRVBCjSzZAu5m1ayBCEOeTFxRJ5izg7mYrhvnvLlKoidl5c861oCOXgN38tiymcjtv5ZtjTHalxWzNS8cBwGgpv3O8DWesIV8tUxJGNfWdog0k+cRqaHPQBwyLjavSHsLtOQbc9sgrwqk/fSnfGKUso/w2CIPFXEXzta197Yn8AaiQmpfzq+qYAAAAASUVORK5CYII=" x="-18" y="-44" width="36" height="36"/>
+      <text y="12" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#4aa8ff">CPAM</text>
+      <text y="32" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8b98a5">2024</text>
     </g>
   </g>
 </svg>

@@ -125,11 +125,6 @@
 ## GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Arjouan&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=00c2ff&icon_color=00f5a0&text_color=c9d1d9&bg_color=0d1117" alt="Arjouan GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arjouan&layout=compact&hide_border=true&title_color=00c2ff&text_color=c9d1d9&bg_color=0d1117" alt="Top languages" />
-</p>
-
-<p align="center">
   <img src="https://streak-stats.demolab.com?user=Arjouan&theme=dark&hide_border=true&ring=00C2FF&fire=00F5A0&currStreakLabel=00C2FF&background=0D1117" alt="GitHub streak" />
 </p>
 
