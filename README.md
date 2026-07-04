@@ -15,8 +15,13 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="README.fr.md">🇫🇷 Lire en français</a>
+</p>
+
 ## About Me
 
+- Open to software engineering internships with international teams
 - Based in Marseille, France
 - Studying Computer Science Engineering at EPITECH
 - Passionate about IT and international environments
@@ -25,6 +30,12 @@
 - Now a 3rd year student
 - Currently learning C++, Java and Neo4j
 - Reach me at [arnaud.jouan@epitech.eu](mailto:arnaud.jouan@epitech.eu)
+
+## My Journey
+
+<p align="center">
+  🇸🇬 Singapore &nbsp;✈️&nbsp; 🇻🇳 Vietnam &nbsp;✈️&nbsp; 🇦🇺 Australia &nbsp;✈️&nbsp; 🇫🇷 France &nbsp;✈️&nbsp; 🇨🇦 Canada <sub>(soon)</sub>
+</p>
 
 ## Tech Stack
 
@@ -68,7 +79,7 @@
 
 <h3>
   <img src="https://www.google.com/s2/favicons?domain=ameli.fr&sz=64" alt="Assurance Maladie logo" width="28" style="vertical-align: middle;" />
-  CPAM des Bouches-du-Rhone (Assurance Maladie)
+  CPAM des Bouches-du-Rhône (Assurance Maladie)
 </h3>
 
 - Role: Java Developer Intern
@@ -82,7 +93,7 @@
   - Designed and implemented unit tests: AIDA_J (70% coverage) and AIDA_X (52% coverage)
 - Tech Environment: SonarQube, Eclipse, WebLogic, ViewVC, SoapUI, Castor
 - Outcome: Successful migration delivery, stronger reliability, improved security posture, and better long-term maintainability
-- AIDA Context: Internal tool used by CNAM/CPAM to automatically retrieve insured users' Pole emploi registration periods, reducing errors and speeding up entitlement workflows
+- AIDA Context: Internal tool used by CNAM/CPAM to automatically retrieve insured users' Pôle emploi registration periods, reducing errors and speeding up entitlement workflows
 
 <p align="left">
   <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00c6ff,100:0072ff" alt="blue separator" width="100%" />
@@ -108,7 +119,7 @@
 ## GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Arjouan&show_icons=true&count_private=true&hide_border=true&title_color=00c2ff&icon_color=00f5a0&text_color=c9d1d9&bg_color=0d1117" alt="Arjouan GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Arjouan&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&title_color=00c2ff&icon_color=00f5a0&text_color=c9d1d9&bg_color=0d1117" alt="Arjouan GitHub stats" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arjouan&layout=compact&hide_border=true&title_color=00c2ff&text_color=c9d1d9&bg_color=0d1117" alt="Top languages" />
 </p>
 
