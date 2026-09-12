@@ -1,18 +1,17 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Bonjour,%20c'est%20Arnaud%20!&fontSize=48&fontAlignY=38&animation=twinkling&color=0:00c6ff,50:0072ff,100:00f5a0" alt="header" />
+  <img src="boarding-pass-header.fr.svg" alt="Carte d'embarquement : Arnaud Jouan, d'EPITECH vers McGill University" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=700&color=00C2FF&center=true&vCenter=true&width=820&lines=%C3%89tudiant+ing%C3%A9nieur+en+informatique+(4e+ann%C3%A9e)+%C3%A0+EPITECH;En+%C3%A9change+%C3%A0+McGill+University+-+%C3%A9tudes+en+management;Toujours+en+train+d'apprendre,+toujours+en+train+de+livrer" alt="Animation d'écriture" />
+  <img src="departure-board.fr.svg" alt="Tableau des départs : étudiant ingénieur 4e année à EPITECH, en échange à McGill en management" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://komarev.com/ghpvc/?username=Arjouan&style=for-the-badge&color=0abde3">
-    <img src="https://komarev.com/ghpvc/?username=Arjouan&style=for-the-badge&color=0abde3&label=Vues+du+profil" alt="Vues du profil" />
-  </a>
-  <a href="https://github.com/Arjouan?tab=followers">
-    <img src="https://img.shields.io/github/followers/Arjouan?style=for-the-badge&logo=github&label=Abonn%C3%A9s&color=1dd1a1" alt="Abonnés" />
-  </a>
+  <img src="time-chip.svg" alt="Heure locale à Marseille et Montréal, mise à jour toutes les 15 minutes" width="60%" />
+</p>
+
+<p align="center">
+  <img src="header-stats.svg" alt="Vues du profil et abonnés" width="70%" />
 </p>
 
 <p align="center">
@@ -20,6 +19,10 @@
 </p>
 
 ## À propos de moi
+
+<table>
+<tr>
+<td width="55%" valign="top">
 
 - Ouvert aux stages en ingénierie logicielle avec des équipes internationales
 - Basé à Marseille, France
@@ -31,6 +34,15 @@
 - En train d'apprendre le C++, Java et Neo4j
 - Écrivez-moi à [arnaud.jouan@epitech.eu](mailto:arnaud.jouan@epitech.eu)
 
+</td>
+<td width="45%" valign="top">
+
+<img src="language-stamps.svg" alt="Page d'identité de passeport : langues anglais natif, français natif, espagnol élémentaire" width="100%" />
+
+</td>
+</tr>
+</table>
+
 ## Mon parcours
 
 <p align="center">
@@ -39,9 +51,8 @@
 
 ## Technologies
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=c,cpp,java,python,html,css,nodejs,mysql,linux,vscode,ps,wordpress" alt="Technologies" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neo4j/neo4j-original.svg" alt="Neo4j" height="48" />
+<p align="center">
+  <img src="tech-stamps.svg" alt="Stack technique sous forme de tampons de visa : C, C++, Java, Python, HTML, CSS, Node.js, MySQL, Linux, VS Code, PowerShell, WordPress, Neo4j" width="90%" />
 </p>
 
 <p align="left">
@@ -60,9 +71,9 @@
 </h3>
 
 - Rôle : Stagiaire développeur logiciel
-- Période : mars 2026 - aujourd'hui
+- Période : mars 2026 - août 2026 · 6 mois
 - Projet : Application de maintenance aéronautique
-- Objectif : Développer et maintenir des fonctionnalités Java en production, avec un code propre et testable
+- Objectif : Développé et maintenu des fonctionnalités Java en production, avec un code propre et testable
 - Points forts :
   - Développement et livraison de fonctionnalités en équipe agile, contribution aux sprints
   - Contribution à la qualité via des revues de code et la correction de bugs
@@ -105,27 +116,48 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00c6ff,100:0072ff" alt="séparateur bleu" width="100%" />
 </p>
 
+## Manifeste de vol
+
+<p align="left">
+  <a href="https://arjouan.github.io/Portfolio/">
+    <img src="flight-manifest-portfolio.fr.svg" alt="Portfolio : en ligne" />
+  </a>
+  <a href="https://github.com/Arjouan?tab=repositories">
+    <img src="flight-manifest-epitech.fr.svg" alt="Projets EPITECH : en préparation" />
+  </a>
+</p>
+
+<p align="left">
+  📁 <a href="https://github.com/Arjouan/Epitech-Year-1-Projects">Année 1</a> ·
+  <a href="https://github.com/Arjouan/Epitech-Year-2-Projects">Année 2</a> ·
+  <a href="https://github.com/Arjouan/Epitech-Year-3-Projects">Année 3</a>
+</p>
+
+<p align="left">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00c6ff,100:0072ff" alt="séparateur bleu" width="100%" />
+</p>
+
 ## Me contacter
 
 <p align="left">
   <a href="https://discord.com/users/super.45">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+    <img src="connect-discord.svg" alt="Discord" />
   </a>
   <a href="https://github.com/Arjouan">
-    <img src="https://img.shields.io/badge/GitHub-0f172a?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="connect-github.svg" alt="GitHub" />
   </a>
   <a href="https://arjouan.github.io/Portfolio/">
-    <img src="https://img.shields.io/badge/Portfolio-0284C7?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+    <img src="connect-portfolio.svg" alt="Portfolio" />
   </a>
   <a href="https://www.linkedin.com/in/arnaud-jouan-613a53263">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="connect-linkedin.svg" alt="LinkedIn" />
   </a>
 </p>
 
-## Statistiques GitHub
+## Journal de vol
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Arjouan&theme=dark&hide_border=true&locale=fr&ring=00C2FF&fire=00F5A0&currStreakLabel=00C2FF&background=0D1117" alt="Série de contributions GitHub" />
+  <img src="flight-log.svg" alt="Statistiques : dépôts publics, étoiles, contributions" width="100%" />
 </p>
 
 <p align="center">
@@ -133,5 +165,5 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:00f5a0,50:00c6ff,100:0072ff" alt="footer" />
+  <img src="boarding-pass-footer.fr.svg" alt="Pied de page : merci de votre visite" width="100%" />
 </p>
