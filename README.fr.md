@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=700&color=00C2FF&center=true&vCenter=true&width=820&lines=%C3%89tudiant+ing%C3%A9nieur+en+informatique+(3e+ann%C3%A9e)+%C3%A0+EPITECH;Je+cr%C3%A9e+des+projets+en+C,+Java+et+technologies+web;Toujours+en+train+d'apprendre,+toujours+en+train+de+livrer" alt="Animation d'écriture" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=700&color=00C2FF&center=true&vCenter=true&width=820&lines=%C3%89tudiant+ing%C3%A9nieur+en+informatique+(4e+ann%C3%A9e)+%C3%A0+EPITECH;En+%C3%A9change+%C3%A0+McGill+University+-+%C3%A9tudes+en+management;Toujours+en+train+d'apprendre,+toujours+en+train+de+livrer" alt="Animation d'écriture" />
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@
 - Passionné par l'IT et les environnements internationaux
 - Français d'origine, élevé entre le Vietnam, Singapour et l'Australie
 - Bilingue et à l'aise dans les équipes multiculturelles
-- Actuellement en 3e année
+- Actuellement en 4e année, en programme d'échange d'un an à McGill University en études de management
 - En train d'apprendre le C++, Java et Neo4j
 - Écrivez-moi à [arnaud.jouan@epitech.eu](mailto:arnaud.jouan@epitech.eu)
 

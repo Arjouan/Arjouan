@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=700&color=00C2FF&center=true&vCenter=true&width=820&lines=Third-year+Computer+Science+Engineer+at+EPITECH;Building+cool+projects+with+C,+Java,+and+Web+Tech;Always+learning,+always+shipping" alt="Typing animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=700&color=00C2FF&center=true&vCenter=true&width=820&lines=4th-year+Computer+Science+Engineer+at+EPITECH;On+exchange+at+McGill+University+studying+Management;Always+learning,+always+shipping" alt="Typing animation" />
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@
 - Passionate about IT and international environments
 - French native, raised across Vietnam, Singapore, and Australia
 - Bilingual and comfortable adapting to multicultural teams
-- Now a 3rd year student
+- Now a 4th year student, on a 1-year exchange program at McGill University studying Management
 - Currently learning C++, Java and Neo4j
 - Reach me at [arnaud.jouan@epitech.eu](mailto:arnaud.jouan@epitech.eu)
 
