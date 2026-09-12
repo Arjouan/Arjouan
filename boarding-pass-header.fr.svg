@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 234" width="100%" role="img" aria-label="Carte d'embarquement d'Arnaud Jouan, d'EPITECH vers McGill University">
+  <defs>
+    <linearGradient id="bphfr" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00c6ff"/>
+      <stop offset="0.5" stop-color="#0072ff"/>
+      <stop offset="1" stop-color="#00f5a0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="896" height="230" rx="18" fill="#0d1117" stroke="url(#bphfr)" stroke-width="2"/>
+  <line x1="642" y1="14" x2="642" y2="220" stroke="#30363d" stroke-width="2" stroke-dasharray="7 7"/>
+
+  <text x="40" y="46" font-family="Courier New, monospace" font-size="12" letter-spacing="2" fill="#00f5a0">CARTE D'EMBARQUEMENT</text>
+
+  <text x="40" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700" fill="#f0f6fc">ARNAUD JOUAN</text>
+  <text x="40" y="115" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#8b98a5" letter-spacing="1">INGÉNIEUR LOGICIEL · 4E ANNÉE À EPITECH</text>
+
+  <text x="40" y="168" font-family="Courier New, monospace" font-size="24" font-weight="700" fill="#00c6ff">EPITECH</text>
+  <text x="40" y="188" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8b98a5">MARSEILLE, FRANCE</text>
+
+  <text x="470" y="168" font-family="Courier New, monospace" font-size="24" font-weight="700" text-anchor="end" fill="#00f5a0">MCGILL</text>
+  <text x="470" y="188" font-family="Segoe UI, Arial, sans-serif" font-size="11" text-anchor="end" fill="#8b98a5">MONTRÉAL, CANADA</text>
+
+  <line x1="150" y1="160" x2="360" y2="160" stroke="#30363d" stroke-width="1.5" stroke-dasharray="2 6"/>
+  <path d="M-9 -5 L9 0 L-9 5 L-3 0 Z" fill="url(#bphfr)">
+    <animateMotion dur="4.5s" repeatCount="indefinite" rotate="auto" path="M150 160 L360 160"/>
+  </path>
+
+  <text x="672" y="46" font-family="Courier New, monospace" font-size="11" letter-spacing="2" fill="#8b98a5">SIÈGE</text>
+  <text x="672" y="70" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#f0f6fc">4A</text>
+
+  <text x="672" y="104" font-family="Courier New, monospace" font-size="11" letter-spacing="2" fill="#8b98a5">CLASSE</text>
+  <text x="672" y="126" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#f0f6fc">ÉCHANGE MANAGEMENT</text>
+
+  <text x="672" y="158" font-family="Courier New, monospace" font-size="11" letter-spacing="2" fill="#8b98a5">STATUT</text>
+  <text x="672" y="180" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" fill="#00f5a0">OUVERT AUX STAGES</text>
+
+  <g fill="#8b98a5">
+    <rect x="672.00" y="196" width="1.56" height="14"/>
+    <rect x="674.34" y="196" width="0.78" height="14"/>
+    <rect x="676.69" y="196" width="0.78" height="14"/>
+    <rect x="680.59" y="196" width="0.78" height="14"/>
+    <rect x="682.94" y="196" width="1.56" height="14"/>
+    <rect x="685.28" y="196" width="0.78" height="14"/>
+    <rect x="689.18" y="196" width="0.78" height="14"/>
+    <rect x="693.09" y="196" width="1.56" height="14"/>
+    <rect x="695.43" y="196" width="0.78" height="14"/>
+    <rect x="697.78" y="196" width="0.78" height="14"/>
+    <rect x="700.12" y="196" width="3.12" height="14"/>
+    <rect x="704.03" y="196" width="0.78" height="14"/>
+    <rect x="706.37" y="196" width="0.78" height="14"/>
+    <rect x="708.71" y="196" width="1.56" height="14"/>
+    <rect x="713.40" y="196" width="0.78" height="14"/>
+    <rect x="714.96" y="196" width="0.78" height="14"/>
+    <rect x="717.30" y="196" width="3.12" height="14"/>
+    <rect x="721.99" y="196" width="0.78" height="14"/>
+    <rect x="723.55" y="196" width="0.78" height="14"/>
+    <rect x="725.90" y="196" width="0.78" height="14"/>
+    <rect x="729.80" y="196" width="1.56" height="14"/>
+    <rect x="732.15" y="196" width="0.78" height="14"/>
+    <rect x="734.49" y="196" width="1.56" height="14"/>
+    <rect x="737.61" y="196" width="2.34" height="14"/>
+    <rect x="740.74" y="196" width="0.78" height="14"/>
+    <rect x="744.64" y="196" width="0.78" height="14"/>
+    <rect x="746.21" y="196" width="1.56" height="14"/>
+    <rect x="749.33" y="196" width="0.78" height="14"/>
+    <rect x="752.45" y="196" width="3.12" height="14"/>
+    <rect x="756.36" y="196" width="0.78" height="14"/>
+    <rect x="757.92" y="196" width="3.12" height="14"/>
+    <rect x="761.83" y="196" width="2.34" height="14"/>
+    <rect x="764.95" y="196" width="0.78" height="14"/>
+    <rect x="766.52" y="196" width="0.78" height="14"/>
+    <rect x="768.08" y="196" width="2.34" height="14"/>
+    <rect x="771.98" y="196" width="1.56" height="14"/>
+    <rect x="775.11" y="196" width="0.78" height="14"/>
+    <rect x="776.67" y="196" width="0.78" height="14"/>
+    <rect x="779.79" y="196" width="1.56" height="14"/>
+    <rect x="783.70" y="196" width="0.78" height="14"/>
+    <rect x="786.04" y="196" width="0.78" height="14"/>
+    <rect x="788.39" y="196" width="3.12" height="14"/>
+    <rect x="792.29" y="196" width="0.78" height="14"/>
+    <rect x="796.20" y="196" width="1.56" height="14"/>
+    <rect x="799.32" y="196" width="0.78" height="14"/>
+    <rect x="800.88" y="196" width="0.78" height="14"/>
+    <rect x="804.01" y="196" width="3.12" height="14"/>
+    <rect x="807.91" y="196" width="0.78" height="14"/>
+    <rect x="809.48" y="196" width="0.78" height="14"/>
+    <rect x="811.82" y="196" width="3.12" height="14"/>
+    <rect x="816.51" y="196" width="0.78" height="14"/>
+    <rect x="818.07" y="196" width="0.78" height="14"/>
+    <rect x="820.41" y="196" width="0.78" height="14"/>
+    <rect x="821.97" y="196" width="1.56" height="14"/>
+    <rect x="826.66" y="196" width="1.56" height="14"/>
+    <rect x="831.35" y="196" width="0.78" height="14"/>
+    <rect x="832.91" y="196" width="0.78" height="14"/>
+    <rect x="835.25" y="196" width="0.78" height="14"/>
+    <rect x="837.60" y="196" width="0.78" height="14"/>
+    <rect x="839.16" y="196" width="3.12" height="14"/>
+    <rect x="843.85" y="196" width="1.56" height="14"/>
+    <rect x="847.75" y="196" width="2.34" height="14"/>
+    <rect x="850.88" y="196" width="0.78" height="14"/>
+    <rect x="852.44" y="196" width="1.56" height="14"/>
+  </g>
+  <text x="762" y="219" text-anchor="middle" font-family="Courier New, monospace" font-size="7" letter-spacing="1" fill="#8b98a5">GITHUB.COM/ARJOUAN</text>
+</svg>
