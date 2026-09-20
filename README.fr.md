@@ -116,22 +116,6 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00c6ff,100:0072ff" alt="séparateur bleu" width="100%" />
 </p>
 
-## Projets phares
-
-| Projet | Description | Stack |
-|---|---|---|
-| [R-Type](https://github.com/Arjouan/rtype) | Remake multijoueur autoritaire du classique d'arcade de 1987, avec un ECS maison et un protocole binaire UDP | C++20, SFML |
-| [AREA](https://github.com/Arjouan/area) | Plateforme d'automatisation Action-Réaction (façon IFTTT) avec intégrations OAuth, hooks et planificateurs | FastAPI, Vue, Android |
-| [Zappy](https://github.com/Arjouan/zappy) | Jeu en réseau multijoueur : serveur, IA client et interface 2D via un protocole maison | C, C++ |
-| [Arcade](https://github.com/Arjouan/arcade) | Moteur de jeu à chargement dynamique de bibliothèques graphiques et de jeux | C++ |
-| [Raytracer](https://github.com/Arjouan/raytracer) | Raytracer configurable avec éclairage et fichiers de scène | C++ |
-
-Plus de détails sur le [Portfolio](https://arjouan.github.io/Portfolio/projects.html), y compris mon rôle précis sur chaque projet de groupe.
-
-<p align="left">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00c6ff,100:0072ff" alt="séparateur bleu" width="100%" />
-</p>
-
 ## Manifeste de vol
 
 <p align="left">
@@ -142,6 +126,16 @@ Plus de détails sur le [Portfolio](https://arjouan.github.io/Portfolio/projects
     <img src="flight-manifest-epitech.fr.svg" alt="Projets EPITECH : en préparation" />
   </a>
 </p>
+
+| Projet | Description | Stack |
+|---|---|---|
+| [R-Type](https://github.com/Arjouan/rtype) | Remake multijoueur autoritaire du classique d'arcade de 1987, avec un ECS maison et un protocole binaire UDP | C++20, SFML |
+| [AREA](https://github.com/Arjouan/area) | Plateforme d'automatisation Action-Réaction (façon IFTTT) avec intégrations OAuth, hooks et planificateurs | FastAPI, Vue, Android |
+| [Zappy](https://github.com/Arjouan/zappy) | Jeu en réseau multijoueur : serveur, IA client et interface 2D via un protocole maison | C, C++ |
+| [Arcade](https://github.com/Arjouan/arcade) | Moteur de jeu à chargement dynamique de bibliothèques graphiques et de jeux | C++ |
+| [Raytracer](https://github.com/Arjouan/raytracer) | Raytracer configurable avec éclairage et fichiers de scène | C++ |
+
+Plus de détails sur le [Portfolio](https://arjouan.github.io/Portfolio/projects.html), y compris mon rôle précis sur chaque projet de groupe.
 
 <p align="left">
   📁 <a href="https://github.com/Arjouan/Epitech-Year-1-Projects">Année 1</a> ·

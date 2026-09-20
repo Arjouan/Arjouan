@@ -116,22 +116,6 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00c6ff,100:0072ff" alt="blue separator" width="100%" />
 </p>
 
-## Featured Projects
-
-| Project | What it is | Stack |
-|---|---|---|
-| [R-Type](https://github.com/Arjouan/rtype) | Authoritative C++20 multiplayer remake of the 1987 arcade classic, with a custom ECS and a UDP-first binary protocol | C++20, SFML |
-| [AREA](https://github.com/Arjouan/area) | Action-Reaction automation platform (IFTTT-style) with OAuth integrations, hooks, and schedulers | FastAPI, Vue, Android |
-| [Zappy](https://github.com/Arjouan/zappy) | Multiplayer network game: server, AI client, and 2D GUI over a custom protocol | C, C++ |
-| [Arcade](https://github.com/Arjouan/arcade) | Game engine with dynamically loaded graphics and game modules | C++ |
-| [Raytracer](https://github.com/Arjouan/raytracer) | Configurable raytracer with lighting and scene files | C++ |
-
-More on the [Portfolio](https://arjouan.github.io/Portfolio/projects.html), including my specific role on each team project.
-
-<p align="left">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00c6ff,100:0072ff" alt="blue separator" width="100%" />
-</p>
-
 ## Flight Manifest
 
 <p align="left">
@@ -142,6 +126,16 @@ More on the [Portfolio](https://arjouan.github.io/Portfolio/projects.html), incl
     <img src="flight-manifest-epitech.svg" alt="EPITECH Coursework: packing cargo" />
   </a>
 </p>
+
+| Project | What it is | Stack |
+|---|---|---|
+| [R-Type](https://github.com/Arjouan/rtype) | Authoritative C++20 multiplayer remake of the 1987 arcade classic, with a custom ECS and a UDP-first binary protocol | C++20, SFML |
+| [AREA](https://github.com/Arjouan/area) | Action-Reaction automation platform (IFTTT-style) with OAuth integrations, hooks, and schedulers | FastAPI, Vue, Android |
+| [Zappy](https://github.com/Arjouan/zappy) | Multiplayer network game: server, AI client, and 2D GUI over a custom protocol | C, C++ |
+| [Arcade](https://github.com/Arjouan/arcade) | Game engine with dynamically loaded graphics and game modules | C++ |
+| [Raytracer](https://github.com/Arjouan/raytracer) | Configurable raytracer with lighting and scene files | C++ |
+
+More on the [Portfolio](https://arjouan.github.io/Portfolio/projects.html), including my specific role on each team project.
 
 <p align="left">
   📁 <a href="https://github.com/Arjouan/Epitech-Year-1-Projects">Year 1</a> ·
