@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="100%" role="img" aria-label="Flight log stats: 7 DESTINATIONS, 0 STARS COLLECTED, — FLIGHT HOURS">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="100%" role="img" aria-label="Flight log stats: 28 DESTINATIONS, 0 STARS COLLECTED, — FLIGHT HOURS">
   <defs>
     <linearGradient id="flg" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#00c6ff"/>
@@ -11,7 +11,7 @@
   
     <g transform="translate(0,0)">
       <line x1="0" y1="14" x2="0" y2="106" stroke="#30363d" stroke-width="0" stroke-dasharray="4 4"/>
-      <text x="100" y="46" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#f0f6fc">7</text>
+      <text x="100" y="46" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#f0f6fc">28</text>
       <text x="100" y="70" text-anchor="middle" font-family="Courier New, monospace" font-size="11" letter-spacing="2" fill="#00f5a0">DESTINATIONS</text>
       <text x="100" y="88" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#8b98a5">public repos</text>
     </g>
