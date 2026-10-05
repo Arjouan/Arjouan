@@ -7,14 +7,22 @@
 </p>
 
 <p align="center">
-  <img src="time-chip.svg" alt="Time zones: Marseille UTC+1, Montreal UTC−5" width="60%" />
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/time-chip.mobile.svg" />
+    <img src="time-chip.svg" alt="Time zones: Marseille CET/CEST, Montreal EST/EDT" width="60%" />
+  </picture>
 </p>
 
 <p align="center">
   <a href="README.fr.md">🇫🇷 Lire en français</a>
 </p>
 
-## About Me
+<p align="left">
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-about.mobile.svg" />
+    <img src="assets/gate-about.svg" alt="About Me" width="100%" />
+  </picture>
+</p>
 
 <table>
 <tr>
@@ -22,9 +30,7 @@
 
 - Open to software engineering internships with international teams
 - Currently in Montreal on a 1-year exchange at McGill University (home base: Marseille, France)
-- Passionate about IT and international environments
 - French native, raised across Vietnam, Singapore, and Australia
-- Bilingual and comfortable adapting to multicultural teams
 - 4th year Computer Science Engineering student at EPITECH, studying Management at McGill this year
 - Currently building [Meridian](https://github.com/Arjouan/Meridian), a maritime Vessel Management System (NestJS, Prisma, PostGIS, Next.js)
 - Shipped production Java at REACTIS on an aeronautical maintenance application
@@ -39,23 +45,40 @@
 </tr>
 </table>
 
-## My Journey
-
-<p align="center">
-  <img src="journey.svg" alt="Flight route: Singapore, Vietnam, Australia, France, Canada" width="90%" />
+<p align="left">
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-journey.mobile.svg" />
+    <img src="assets/gate-journey.svg" alt="My Journey" width="100%" />
+  </picture>
 </p>
 
-## Tech Stack
-
 <p align="center">
-  <img src="tech-stamps.svg" alt="Tech stack shown as visa stamps: C, C++, Java, Python, HTML, CSS, Node.js, MySQL, Linux, VS Code, PowerShell, WordPress, Neo4j" width="90%" />
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/journey.mobile.svg" />
+    <img src="journey.svg" alt="Flight route on a world map: Singapore, Vietnam, Australia, France, Canada" width="100%" />
+  </picture>
 </p>
 
 <p align="left">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00c6ff,100:0072ff" alt="blue separator" width="100%" />
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-stack.mobile.svg" />
+    <img src="assets/gate-stack.svg" alt="Tech Stack" width="100%" />
+  </picture>
 </p>
 
-## Internship Experience
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/luggage-tags.mobile.svg" />
+    <img src="assets/luggage-tags.svg" alt="Tech stack as luggage tags. Main baggage: C, C++, Java, Python. Checking in (learning): NestJS, Next.js, Prisma, PostgreSQL, Neo4j. Carry-on: HTML5, CSS3, Node.js, MySQL, Linux, VS Code, PowerShell, WordPress" width="100%" />
+  </picture>
+</p>
+
+<p align="left">
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-internships.mobile.svg" />
+    <img src="assets/gate-internships.svg" alt="Internship Experience" width="100%" />
+  </picture>
+</p>
 
 <p align="center">
   <img src="passport-stamps.svg" alt="Internship stamps: REACTIS, BARJANE, CPAM" width="80%" />
@@ -115,28 +138,56 @@
 </details>
 
 <p align="left">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00c6ff,100:0072ff" alt="blue separator" width="100%" />
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-manifest.mobile.svg" />
+    <img src="assets/gate-manifest.svg" alt="Flight Manifest" width="100%" />
+  </picture>
 </p>
 
-## Flight Manifest
+<p align="left">
+  <a href="https://github.com/Arjouan/Meridian">
+    <picture>
+      <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/project-meridian.mobile.svg" />
+      <img src="assets/project-meridian.svg" alt="Meridian" width="49%" />
+    </picture>
+  </a>
+  <a href="https://github.com/Arjouan/rtype">
+    <picture>
+      <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/project-rtype.mobile.svg" />
+      <img src="assets/project-rtype.svg" alt="R-Type" width="49%" />
+    </picture>
+  </a>
+</p>
+
+<p align="left">
+  <a href="https://github.com/Arjouan/area">
+    <picture>
+      <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/project-area.mobile.svg" />
+      <img src="assets/project-area.svg" alt="AREA" width="49%" />
+    </picture>
+  </a>
+  <a href="https://github.com/Arjouan/zappy">
+    <picture>
+      <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/project-zappy.mobile.svg" />
+      <img src="assets/project-zappy.svg" alt="Zappy" width="49%" />
+    </picture>
+  </a>
+</p>
 
 <p align="left">
   <a href="https://arjouan.github.io/Portfolio/">
-    <img src="flight-manifest-portfolio.svg" alt="Portfolio: live" width="49%" />
+    <picture>
+      <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/flight-manifest-portfolio.mobile.svg" />
+      <img src="flight-manifest-portfolio.svg" alt="Portfolio: live" width="49%" />
+    </picture>
   </a>
   <a href="https://github.com/Arjouan?tab=repositories">
-    <img src="flight-manifest-epitech.svg" alt="EPITECH Coursework: packing cargo" width="49%" />
+    <picture>
+      <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/flight-manifest-epitech.mobile.svg" />
+      <img src="flight-manifest-epitech.svg" alt="EPITECH Coursework: packing cargo" width="49%" />
+    </picture>
   </a>
 </p>
-
-| Project | What it is | Stack |
-|---|---|---|
-| [Meridian](https://github.com/Arjouan/Meridian) | Personal project: Vessel Management System for maritime logistics, built end to end on a modern full stack | NestJS, Prisma, PostGIS, Next.js |
-| [R-Type](https://github.com/Arjouan/rtype) | Authoritative C++20 multiplayer remake of the 1987 arcade classic, with a custom ECS and a UDP-first binary protocol | C++20, SFML |
-| [AREA](https://github.com/Arjouan/area) | Action-Reaction automation platform (IFTTT-style) with OAuth integrations, hooks, and schedulers | FastAPI, Vue, Android |
-| [Zappy](https://github.com/Arjouan/zappy) | Multiplayer network game: server, AI client, and 2D GUI over a custom protocol | C, C++ |
-| [Arcade](https://github.com/Arjouan/arcade) | Game engine with dynamically loaded graphics and game modules | C++ |
-| [Raytracer](https://github.com/Arjouan/raytracer) | Configurable raytracer with lighting and scene files | C++ |
 
 More on the [Portfolio](https://arjouan.github.io/Portfolio/projects.html), including my specific role on each team project.
 
@@ -147,10 +198,11 @@ More on the [Portfolio](https://arjouan.github.io/Portfolio/projects.html), incl
 </p>
 
 <p align="left">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00c6ff,100:0072ff" alt="blue separator" width="100%" />
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-connect.mobile.svg" />
+    <img src="assets/gate-connect.svg" alt="Connect With Me" width="100%" />
+  </picture>
 </p>
-
-## Connect With Me
 
 <p align="left">
   <a href="https://discord.com/users/super.45">
@@ -167,10 +219,18 @@ More on the [Portfolio](https://arjouan.github.io/Portfolio/projects.html), incl
   </a>
 </p>
 
-## Flight Log
+<p align="left">
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-log.mobile.svg" />
+    <img src="assets/gate-log.svg" alt="Flight Log" width="100%" />
+  </picture>
+</p>
 
 <p align="center">
-  <img src="flight-log.svg" alt="Flight log: 3 internships, 5 countries, 4 languages" width="100%" />
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/flight-log.mobile.svg" />
+    <img src="flight-log.svg" alt="Flight log: 3 internships, 5 countries, 4 languages" width="100%" />
+  </picture>
 </p>
 
 <p align="center">

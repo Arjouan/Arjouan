@@ -27,7 +27,30 @@ function formatDate(iso) {
   return d.toLocaleDateString("en-US", { year: "numeric", month: "short", day: "2-digit" });
 }
 
-function cardSvg({ label, title, status, statusColor, subtitle, updated, idSuffix }) {
+function cardSvg(card) {
+  return { desktop: desktopCardSvg(card), mobile: mobileCardSvg(card) };
+}
+
+// Phones show these cards at half the screen width: keep only title and status, in larger type.
+function mobileCardSvg({ title, status, statusColor, subtitle, idSuffix }) {
+  const words = title.split(" ");
+  const lines = words.length > 1 && title.length > 12 ? [words[0], words.slice(1).join(" ")] : [title];
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="200" role="img" aria-label="${title}: ${status} - ${subtitle}">
+  <defs>
+    <linearGradient id="mcm-${idSuffix}" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00c6ff"/>
+      <stop offset="1" stop-color="#00f5a0"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="196" height="146" rx="14" fill="#0d1117" stroke="url(#mcm-${idSuffix})" stroke-width="2"/>
+  ${lines.map((l, i) => `<text x="14" y="${46 + i * 26}" font-family="Segoe UI, Arial, sans-serif" font-size="${l.length > 11 ? 17 : 21}" font-weight="700" fill="#f0f6fc">${l}</text>`).join("\n  ")}
+  <line x1="14" y1="100" x2="186" y2="100" stroke="#30363d" stroke-width="1" stroke-dasharray="3 5"/>
+  <text x="14" y="126" font-family="Courier New, monospace" font-size="${status.length > 12 ? 12 : 14}" font-weight="700" fill="${statusColor}">${status}</text>
+</svg>
+`;
+}
+
+function desktopCardSvg({ label, title, status, statusColor, subtitle, updated, idSuffix }) {
   const updatedText = updated ? `UPDATED ${updated}` : "";
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 130" width="420" role="img" aria-label="${title}: ${status} - ${subtitle}">
   <defs>
@@ -47,7 +70,7 @@ function cardSvg({ label, title, status, statusColor, subtitle, updated, idSuffi
 `;
 }
 
-const COLORS = { live: "#00f5a0", transit: "#00c6ff", packing: "#ffc857" };
+const COLORS = { live: "#00f5a0", transit: "#00c6ff", packing: "#ffb000" };
 
 async function buildPortfolioCard(lang) {
   const repo = await fetchRepo("Portfolio");
@@ -129,9 +152,10 @@ async function main() {
     ["flight-manifest-epitech.fr.svg", buildEpitechCard("fr")],
   ];
   for (const [filename, promise] of jobs) {
-    const svg = await promise;
-    await fs.writeFile(new URL(`../${filename}`, import.meta.url), svg);
-    console.log(`wrote ${filename}`);
+    const { desktop, mobile } = await promise;
+    await fs.writeFile(new URL(`../${filename}`, import.meta.url), desktop);
+    await fs.writeFile(new URL(`../${filename.replace(/\.svg$/, ".mobile.svg")}`, import.meta.url), mobile);
+    console.log(`wrote ${filename} (+ mobile)`);
   }
 }
 

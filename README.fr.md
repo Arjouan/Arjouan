@@ -7,14 +7,22 @@
 </p>
 
 <p align="center">
-  <img src="time-chip.svg" alt="Fuseaux horaires : Marseille UTC+1, Montréal UTC−5" width="60%" />
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/time-chip.mobile.svg" />
+    <img src="time-chip.svg" alt="Fuseaux horaires : Marseille CET/CEST, Montréal EST/EDT" width="60%" />
+  </picture>
 </p>
 
 <p align="center">
   <a href="README.md">🇬🇧 Read in English</a>
 </p>
 
-## À propos de moi
+<p align="left">
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-about.fr.mobile.svg" />
+    <img src="assets/gate-about.fr.svg" alt="À propos de moi" width="100%" />
+  </picture>
+</p>
 
 <table>
 <tr>
@@ -22,9 +30,7 @@
 
 - Ouvert aux stages en ingénierie logicielle avec des équipes internationales
 - Actuellement à Montréal pour un échange d'un an à McGill University (port d'attache : Marseille, France)
-- Passionné par l'IT et les environnements internationaux
 - Français d'origine, élevé entre le Vietnam, Singapour et l'Australie
-- Bilingue et à l'aise dans les équipes multiculturelles
 - Étudiant en 4e année d'ingénierie informatique à EPITECH, en management à McGill cette année
 - En train de développer [Meridian](https://github.com/Arjouan/Meridian), un système de gestion de flotte maritime (NestJS, Prisma, PostGIS, Next.js)
 - Livraison de code Java en production chez REACTIS sur une application de maintenance aéronautique
@@ -39,23 +45,40 @@
 </tr>
 </table>
 
-## Mon parcours
-
-<p align="center">
-  <img src="journey.fr.svg" alt="Itinéraire : Singapour, Vietnam, Australie, France, Canada" width="90%" />
+<p align="left">
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-journey.fr.mobile.svg" />
+    <img src="assets/gate-journey.fr.svg" alt="Mon parcours" width="100%" />
+  </picture>
 </p>
 
-## Technologies
-
 <p align="center">
-  <img src="tech-stamps.svg" alt="Stack technique sous forme de tampons de visa : C, C++, Java, Python, HTML, CSS, Node.js, MySQL, Linux, VS Code, PowerShell, WordPress, Neo4j" width="90%" />
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/journey.fr.mobile.svg" />
+    <img src="journey.fr.svg" alt="Itinéraire sur une carte du monde : Singapour, Vietnam, Australie, France, Canada" width="100%" />
+  </picture>
 </p>
 
 <p align="left">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00c6ff,100:0072ff" alt="séparateur bleu" width="100%" />
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-stack.fr.mobile.svg" />
+    <img src="assets/gate-stack.fr.svg" alt="Technologies" width="100%" />
+  </picture>
 </p>
 
-## Expérience en stage
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/luggage-tags.fr.mobile.svg" />
+    <img src="assets/luggage-tags.fr.svg" alt="Stack technique en étiquettes de bagage. Bagage principal : C, C++, Java, Python. Enregistrement (en cours) : NestJS, Next.js, Prisma, PostgreSQL, Neo4j. Bagage cabine : HTML5, CSS3, Node.js, MySQL, Linux, VS Code, PowerShell, WordPress" width="100%" />
+  </picture>
+</p>
+
+<p align="left">
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-internships.fr.mobile.svg" />
+    <img src="assets/gate-internships.fr.svg" alt="Expérience en stage" width="100%" />
+  </picture>
+</p>
 
 <p align="center">
   <img src="passport-stamps.svg" alt="Tampons de stage : REACTIS, BARJANE, CPAM" width="80%" />
@@ -115,28 +138,56 @@
 </details>
 
 <p align="left">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00c6ff,100:0072ff" alt="séparateur bleu" width="100%" />
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-manifest.fr.mobile.svg" />
+    <img src="assets/gate-manifest.fr.svg" alt="Manifeste de vol" width="100%" />
+  </picture>
 </p>
 
-## Manifeste de vol
+<p align="left">
+  <a href="https://github.com/Arjouan/Meridian">
+    <picture>
+      <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/project-meridian.fr.mobile.svg" />
+      <img src="assets/project-meridian.fr.svg" alt="Meridian" width="49%" />
+    </picture>
+  </a>
+  <a href="https://github.com/Arjouan/rtype">
+    <picture>
+      <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/project-rtype.fr.mobile.svg" />
+      <img src="assets/project-rtype.fr.svg" alt="R-Type" width="49%" />
+    </picture>
+  </a>
+</p>
+
+<p align="left">
+  <a href="https://github.com/Arjouan/area">
+    <picture>
+      <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/project-area.fr.mobile.svg" />
+      <img src="assets/project-area.fr.svg" alt="AREA" width="49%" />
+    </picture>
+  </a>
+  <a href="https://github.com/Arjouan/zappy">
+    <picture>
+      <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/project-zappy.fr.mobile.svg" />
+      <img src="assets/project-zappy.fr.svg" alt="Zappy" width="49%" />
+    </picture>
+  </a>
+</p>
 
 <p align="left">
   <a href="https://arjouan.github.io/Portfolio/">
-    <img src="flight-manifest-portfolio.fr.svg" alt="Portfolio : en ligne" width="49%" />
+    <picture>
+      <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/flight-manifest-portfolio.fr.mobile.svg" />
+      <img src="flight-manifest-portfolio.fr.svg" alt="Portfolio : en ligne" width="49%" />
+    </picture>
   </a>
   <a href="https://github.com/Arjouan?tab=repositories">
-    <img src="flight-manifest-epitech.fr.svg" alt="Projets EPITECH : en préparation" width="49%" />
+    <picture>
+      <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/flight-manifest-epitech.fr.mobile.svg" />
+      <img src="flight-manifest-epitech.fr.svg" alt="Projets EPITECH : en préparation" width="49%" />
+    </picture>
   </a>
 </p>
-
-| Projet | Description | Stack |
-|---|---|---|
-| [Meridian](https://github.com/Arjouan/Meridian) | Projet personnel : système de gestion de flotte (VMS) pour la logistique maritime, développé de bout en bout sur une stack moderne | NestJS, Prisma, PostGIS, Next.js |
-| [R-Type](https://github.com/Arjouan/rtype) | Remake multijoueur autoritaire du classique d'arcade de 1987, avec un ECS maison et un protocole binaire UDP | C++20, SFML |
-| [AREA](https://github.com/Arjouan/area) | Plateforme d'automatisation Action-Réaction (façon IFTTT) avec intégrations OAuth, hooks et planificateurs | FastAPI, Vue, Android |
-| [Zappy](https://github.com/Arjouan/zappy) | Jeu en réseau multijoueur : serveur, IA client et interface 2D via un protocole maison | C, C++ |
-| [Arcade](https://github.com/Arjouan/arcade) | Moteur de jeu à chargement dynamique de bibliothèques graphiques et de jeux | C++ |
-| [Raytracer](https://github.com/Arjouan/raytracer) | Raytracer configurable avec éclairage et fichiers de scène | C++ |
 
 Plus de détails sur le [Portfolio](https://arjouan.github.io/Portfolio/projects.html), y compris mon rôle précis sur chaque projet de groupe.
 
@@ -147,10 +198,11 @@ Plus de détails sur le [Portfolio](https://arjouan.github.io/Portfolio/projects
 </p>
 
 <p align="left">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00c6ff,100:0072ff" alt="séparateur bleu" width="100%" />
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-connect.fr.mobile.svg" />
+    <img src="assets/gate-connect.fr.svg" alt="Me contacter" width="100%" />
+  </picture>
 </p>
-
-## Me contacter
 
 <p align="left">
   <a href="https://discord.com/users/super.45">
@@ -167,10 +219,18 @@ Plus de détails sur le [Portfolio](https://arjouan.github.io/Portfolio/projects
   </a>
 </p>
 
-## Journal de vol
+<p align="left">
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-log.fr.mobile.svg" />
+    <img src="assets/gate-log.fr.svg" alt="Journal de vol" width="100%" />
+  </picture>
+</p>
 
 <p align="center">
-  <img src="flight-log.svg" alt="Journal de vol : 3 stages, 5 pays, 4 langues" width="100%" />
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/flight-log.mobile.svg" />
+    <img src="flight-log.svg" alt="Journal de vol : 3 stages, 5 pays, 4 langues" width="100%" />
+  </picture>
 </p>
 
 <p align="center">

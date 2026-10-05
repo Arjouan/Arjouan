@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="200" role="img" aria-label="PORTFOLIO: LIVE - Personal site — cleared for landing">
+  <defs>
+    <linearGradient id="mcm-pf-en" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00c6ff"/>
+      <stop offset="1" stop-color="#00f5a0"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="196" height="146" rx="14" fill="#0d1117" stroke="url(#mcm-pf-en)" stroke-width="2"/>
+  <text x="14" y="46" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" fill="#f0f6fc">PORTFOLIO</text>
+  <line x1="14" y1="100" x2="186" y2="100" stroke="#30363d" stroke-width="1" stroke-dasharray="3 5"/>
+  <text x="14" y="126" font-family="Courier New, monospace" font-size="14" font-weight="700" fill="#00f5a0">LIVE</text>
+</svg>

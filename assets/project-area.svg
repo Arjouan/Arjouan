@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 150" width="420" role="img" aria-label="AREA: LANDED - IFTTT-style automation platform with OAuth integrations and hooks (FASTAPI · VUE · ANDROID)">
+  <defs>
+    <linearGradient id="pc-area-en" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00c6ff"/>
+      <stop offset="1" stop-color="#00f5a0"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="416" height="146" rx="14" fill="#0d1117" stroke="url(#pc-area-en)" stroke-width="2"/>
+  <text x="24" y="28" font-family="Courier New, monospace" font-size="10" letter-spacing="2" fill="#8b98a5">FLIGHT AJ-03 · GATE EPITECH Y3</text>
+  <rect x="337.6" y="14" width="58.400000000000006" height="20" rx="4" fill="none" stroke="#00f5a0" stroke-width="1.2"/>
+  <text x="366.8" y="28" text-anchor="middle" font-family="Courier New, monospace" font-size="11" font-weight="700" letter-spacing="1" fill="#00f5a0">LANDED</text>
+  <text x="24" y="66" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#f0f6fc">AREA</text>
+  <text x="24" y="92" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#8b98a5">IFTTT-style automation platform with OAuth integrations and hooks</text>
+  <line x1="24" y1="110" x2="396" y2="110" stroke="#30363d" stroke-width="1" stroke-dasharray="3 5"/>
+  <text x="24" y="131" font-family="Courier New, monospace" font-size="11" font-weight="700" letter-spacing="1.5" fill="#00c6ff">FASTAPI · VUE · ANDROID</text>
+  <path d="M388 126 L398 126 L404 121 L406 121 L403 126 L408 126 L410 124 L411 124 L410 127.5 L411 131 L410 131 L408 129 L403 129 L406 134 L404 134 L398 129 L388 129 Z" fill="url(#pc-area-en)" transform="matrix(-1 0 0 1 799 0)"/>
+</svg>

@@ -25,7 +25,7 @@ jobs:
 
       - name: Commit if changed
         run: |
-          FILES="flight-manifest-portfolio.svg flight-manifest-portfolio.fr.svg flight-manifest-epitech.svg flight-manifest-epitech.fr.svg"
+          FILES="flight-manifest-portfolio.svg flight-manifest-portfolio.fr.svg flight-manifest-epitech.svg flight-manifest-epitech.fr.svg flight-manifest-portfolio.mobile.svg flight-manifest-portfolio.fr.mobile.svg flight-manifest-epitech.mobile.svg flight-manifest-epitech.fr.mobile.svg"
           if git diff --quiet -- $FILES; then
             echo "No changes to commit"
             exit 0

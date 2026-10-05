@@ -6,13 +6,18 @@
       <stop offset="1" stop-color="#00c6ff"/>
     </linearGradient>
   </defs>
+  <style>
+    .still { display: none; }
+    @media (prefers-reduced-motion: reduce) { .motion { display: none; } .still { display: inline; } }
+  </style>
 
   <rect x="2" y="2" width="896" height="116" rx="18" fill="#0d1117" stroke="url(#bpf)" stroke-width="2"/>
   <line x1="40" y1="90" x2="760" y2="90" stroke="#30363d" stroke-width="1.5" stroke-dasharray="10 6"/>
 
-  <path d="M-10 -6 L12 0 L-10 6 L-3 0 Z" fill="url(#bpf)">
-    <animateMotion dur="5s" repeatCount="indefinite" rotate="auto" path="M40 90 L760 90"/>
+  <path class="motion" d="M-10 -6 L12 0 L-10 6 L-3 0 Z" fill="url(#bpf)">
+    <animateMotion dur="5s" repeatCount="indefinite" rotate="auto" path="M40 18 C560 8, 712 14, 740 88 L762 90"/>
   </path>
+  <path class="still" d="M-10 -6 L12 0 L-10 6 L-3 0 Z" fill="url(#bpf)" transform="translate(752,90)"/>
 
   <text x="390" y="55" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#f0f6fc">Thanks for stopping by my layover</text>
   <text x="390" y="78" text-anchor="middle" font-family="Courier New, monospace" font-size="12" letter-spacing="2" fill="#8b98a5">NEXT DESTINATION: YOUR INBOX — LET'S TALK</text>
