@@ -7,11 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="time-chip.svg" alt="Local time in Marseille and Montreal, updated every 15 minutes" width="60%" />
-</p>
-
-<p align="center">
-  <img src="header-stats.svg" alt="Profile views and followers" width="70%" />
+  <img src="time-chip.svg" alt="Time zones: Marseille UTC+1, Montreal UTC−5" width="60%" />
 </p>
 
 <p align="center">
@@ -25,19 +21,19 @@
 <td width="55%" valign="top">
 
 - Open to software engineering internships with international teams
-- Based in Marseille, France
-- Studying Computer Science Engineering at EPITECH
+- Currently in Montreal on a 1-year exchange at McGill University (home base: Marseille, France)
 - Passionate about IT and international environments
 - French native, raised across Vietnam, Singapore, and Australia
 - Bilingual and comfortable adapting to multicultural teams
-- Now a 4th year student, on a 1-year exchange program at McGill University studying Management
-- Currently learning C++, Java and Neo4j
+- 4th year Computer Science Engineering student at EPITECH, studying Management at McGill this year
+- Currently building [Meridian](https://github.com/Arjouan/Meridian), a maritime Vessel Management System (NestJS, Prisma, PostGIS, Next.js)
+- Shipped production Java at REACTIS on an aeronautical maintenance application
 - Reach me at [arnaud.jouan@epitech.eu](mailto:arnaud.jouan@epitech.eu)
 
 </td>
 <td width="45%" valign="top">
 
-<img src="language-stamps.svg" alt="Passport bio-data page: languages English native, French native, Spanish elementary" width="100%" />
+<img src="language-stamps.svg" alt="Passport bio-data page: languages English native, French native, Spanish elementary, Chinese elementary" width="100%" />
 
 </td>
 </tr>
@@ -65,13 +61,13 @@
   <img src="passport-stamps.svg" alt="Internship stamps: REACTIS, BARJANE, CPAM" width="80%" />
 </p>
 
-<h3>
-  <img src="https://www.google.com/s2/favicons?domain=reactis.fr&sz=64" alt="REACTIS Group logo" width="28" style="vertical-align: middle;" />
-  REACTIS Group
-</h3>
+<h3>REACTIS Group</h3>
 
-- Role: Software Developer Intern
-- Period: Mar 2026 - Aug 2026 · 6 mos
+**Software Developer Intern · Mar 2026 - Aug 2026 · 6 mos**
+
+<details>
+<summary>Mission details</summary>
+
 - Project: Aeronautical maintenance application
 - Focus: Developed and maintained production Java features with clean, testable code
 - Highlights:
@@ -79,13 +75,15 @@
   - Contributed to code quality through code reviews and bug fixing
 - Tech Environment: Java, SQL, Neo4j, Python
 
-<h3>
-  <img src="https://www.google.com/s2/favicons?domain=barjane.fr&sz=64" alt="BARJANE logo" width="28" style="vertical-align: middle;" />
-  BARJANE
-</h3>
+</details>
 
-- Role: Internal IT Referent Intern
-- Period: Sep 2025 - Feb 2026
+<h3>BARJANE</h3>
+
+**Internal IT Referent Intern · Sep 2025 - Feb 2026**
+
+<details>
+<summary>Mission details</summary>
+
 - Mission: Acted as the internal IT point of contact on cross-functional and strategic initiatives
 - Impact Highlights:
   - Secured infrastructure by designing a Business Continuity/Disaster Recovery approach (PRA) with external IT partners and delivering a full hardware/software inventory
@@ -94,13 +92,15 @@
   - Supported teams daily and translated technical constraints into actionable, business-friendly solutions
 - Outcome: Increased infrastructure reliability, reduced manual workload, and accelerated digital modernization
 
-<h3>
-  <img src="https://www.google.com/s2/favicons?domain=ameli.fr&sz=64" alt="Assurance Maladie logo" width="28" style="vertical-align: middle;" />
-  CPAM des Bouches-du-Rhône (Assurance Maladie)
-</h3>
+</details>
 
-- Role: Java Developer Intern
-- Period: Sep 2024 - Dec 2024
+<h3>CPAM des Bouches-du-Rhône (Assurance Maladie)</h3>
+
+**Java Developer Intern · Sep 2024 - Dec 2024**
+
+<details>
+<summary>Mission details</summary>
+
 - Project: AIDA (CNAM/CPAM)
 - Impact Highlights:
   - Modernized core architecture by migrating technical infrastructure from Socle 2 to Socle 3
@@ -112,6 +112,8 @@
 - Outcome: Successful migration delivery, stronger reliability, improved security posture, and better long-term maintainability
 - AIDA Context: Internal tool used by CNAM/CPAM to automatically retrieve insured users' Pôle emploi registration periods, reducing errors and speeding up entitlement workflows
 
+</details>
+
 <p align="left">
   <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00c6ff,100:0072ff" alt="blue separator" width="100%" />
 </p>
@@ -120,15 +122,16 @@
 
 <p align="left">
   <a href="https://arjouan.github.io/Portfolio/">
-    <img src="flight-manifest-portfolio.svg" alt="Portfolio: live" />
+    <img src="flight-manifest-portfolio.svg" alt="Portfolio: live" width="49%" />
   </a>
   <a href="https://github.com/Arjouan?tab=repositories">
-    <img src="flight-manifest-epitech.svg" alt="EPITECH Coursework: packing cargo" />
+    <img src="flight-manifest-epitech.svg" alt="EPITECH Coursework: packing cargo" width="49%" />
   </a>
 </p>
 
 | Project | What it is | Stack |
 |---|---|---|
+| [Meridian](https://github.com/Arjouan/Meridian) | Personal project: Vessel Management System for maritime logistics, built end to end on a modern full stack | NestJS, Prisma, PostGIS, Next.js |
 | [R-Type](https://github.com/Arjouan/rtype) | Authoritative C++20 multiplayer remake of the 1987 arcade classic, with a custom ECS and a UDP-first binary protocol | C++20, SFML |
 | [AREA](https://github.com/Arjouan/area) | Action-Reaction automation platform (IFTTT-style) with OAuth integrations, hooks, and schedulers | FastAPI, Vue, Android |
 | [Zappy](https://github.com/Arjouan/zappy) | Multiplayer network game: server, AI client, and 2D GUI over a custom protocol | C, C++ |
@@ -167,11 +170,7 @@ More on the [Portfolio](https://arjouan.github.io/Portfolio/projects.html), incl
 ## Flight Log
 
 <p align="center">
-  <img src="flight-log.svg" alt="Flight log stats: public repos, stars, contributions" width="100%" />
-</p>
-
-<p align="center">
-  git@github.com:Arjouan/Arjouan.git
+  <img src="flight-log.svg" alt="Flight log: 3 internships, 5 countries, 4 languages" width="100%" />
 </p>
 
 <p align="center">

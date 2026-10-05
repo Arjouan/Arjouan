@@ -7,11 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="time-chip.svg" alt="Heure locale à Marseille et Montréal, mise à jour toutes les 15 minutes" width="60%" />
-</p>
-
-<p align="center">
-  <img src="header-stats.svg" alt="Vues du profil et abonnés" width="70%" />
+  <img src="time-chip.svg" alt="Fuseaux horaires : Marseille UTC+1, Montréal UTC−5" width="60%" />
 </p>
 
 <p align="center">
@@ -25,19 +21,19 @@
 <td width="55%" valign="top">
 
 - Ouvert aux stages en ingénierie logicielle avec des équipes internationales
-- Basé à Marseille, France
-- Études d'ingénierie informatique à EPITECH
+- Actuellement à Montréal pour un échange d'un an à McGill University (port d'attache : Marseille, France)
 - Passionné par l'IT et les environnements internationaux
 - Français d'origine, élevé entre le Vietnam, Singapour et l'Australie
 - Bilingue et à l'aise dans les équipes multiculturelles
-- Actuellement en 4e année, en programme d'échange d'un an à McGill University en études de management
-- En train d'apprendre le C++, Java et Neo4j
+- Étudiant en 4e année d'ingénierie informatique à EPITECH, en management à McGill cette année
+- En train de développer [Meridian](https://github.com/Arjouan/Meridian), un système de gestion de flotte maritime (NestJS, Prisma, PostGIS, Next.js)
+- Livraison de code Java en production chez REACTIS sur une application de maintenance aéronautique
 - Écrivez-moi à [arnaud.jouan@epitech.eu](mailto:arnaud.jouan@epitech.eu)
 
 </td>
 <td width="45%" valign="top">
 
-<img src="language-stamps.svg" alt="Page d'identité de passeport : langues anglais natif, français natif, espagnol élémentaire" width="100%" />
+<img src="language-stamps.svg" alt="Page d'identité de passeport : langues anglais natif, français natif, espagnol élémentaire, chinois élémentaire" width="100%" />
 
 </td>
 </tr>
@@ -65,13 +61,13 @@
   <img src="passport-stamps.svg" alt="Tampons de stage : REACTIS, BARJANE, CPAM" width="80%" />
 </p>
 
-<h3>
-  <img src="https://www.google.com/s2/favicons?domain=reactis.fr&sz=64" alt="Logo REACTIS Group" width="28" style="vertical-align: middle;" />
-  REACTIS Group
-</h3>
+<h3>REACTIS Group</h3>
 
-- Rôle : Stagiaire développeur logiciel
-- Période : mars 2026 - août 2026 · 6 mois
+**Stagiaire développeur logiciel · mars 2026 - août 2026 · 6 mois**
+
+<details>
+<summary>Détails de la mission</summary>
+
 - Projet : Application de maintenance aéronautique
 - Objectif : Développé et maintenu des fonctionnalités Java en production, avec un code propre et testable
 - Points forts :
@@ -79,13 +75,15 @@
   - Contribution à la qualité via des revues de code et la correction de bugs
 - Environnement technique : Java, SQL, Neo4j, Python
 
-<h3>
-  <img src="https://www.google.com/s2/favicons?domain=barjane.fr&sz=64" alt="Logo BARJANE" width="28" style="vertical-align: middle;" />
-  BARJANE
-</h3>
+</details>
 
-- Rôle : Stagiaire référent IT interne
-- Période : sept 2025 - fév 2026
+<h3>BARJANE</h3>
+
+**Stagiaire référent IT interne · sept 2025 - fév 2026**
+
+<details>
+<summary>Détails de la mission</summary>
+
 - Mission : Point de contact IT interne sur des initiatives transverses et stratégiques
 - Points d'impact :
   - Sécurisation de l'infrastructure via la conception d'un Plan de Reprise d'Activité (PRA) avec des partenaires IT externes et la livraison d'un inventaire matériel/logiciel complet
@@ -94,13 +92,15 @@
   - Support quotidien des équipes et traduction des contraintes techniques en solutions concrètes et accessibles
 - Résultat : Fiabilité accrue de l'infrastructure, charge manuelle réduite et modernisation digitale accélérée
 
-<h3>
-  <img src="https://www.google.com/s2/favicons?domain=ameli.fr&sz=64" alt="Logo Assurance Maladie" width="28" style="vertical-align: middle;" />
-  CPAM des Bouches-du-Rhône (Assurance Maladie)
-</h3>
+</details>
 
-- Rôle : Stagiaire développeur Java
-- Période : sept 2024 - déc 2024
+<h3>CPAM des Bouches-du-Rhône (Assurance Maladie)</h3>
+
+**Stagiaire développeur Java · sept 2024 - déc 2024**
+
+<details>
+<summary>Détails de la mission</summary>
+
 - Projet : AIDA (CNAM/CPAM)
 - Points d'impact :
   - Modernisation de l'architecture cœur en migrant l'infrastructure technique du Socle 2 au Socle 3
@@ -112,6 +112,8 @@
 - Résultat : Migration livrée avec succès, fiabilité renforcée, meilleure posture de sécurité et maintenabilité à long terme améliorée
 - Contexte AIDA : Outil interne utilisé par la CNAM/CPAM pour récupérer automatiquement les périodes d'inscription à Pôle emploi des assurés, réduisant les erreurs et accélérant les traitements de droits
 
+</details>
+
 <p align="left">
   <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00c6ff,100:0072ff" alt="séparateur bleu" width="100%" />
 </p>
@@ -120,15 +122,16 @@
 
 <p align="left">
   <a href="https://arjouan.github.io/Portfolio/">
-    <img src="flight-manifest-portfolio.fr.svg" alt="Portfolio : en ligne" />
+    <img src="flight-manifest-portfolio.fr.svg" alt="Portfolio : en ligne" width="49%" />
   </a>
   <a href="https://github.com/Arjouan?tab=repositories">
-    <img src="flight-manifest-epitech.fr.svg" alt="Projets EPITECH : en préparation" />
+    <img src="flight-manifest-epitech.fr.svg" alt="Projets EPITECH : en préparation" width="49%" />
   </a>
 </p>
 
 | Projet | Description | Stack |
 |---|---|---|
+| [Meridian](https://github.com/Arjouan/Meridian) | Projet personnel : système de gestion de flotte (VMS) pour la logistique maritime, développé de bout en bout sur une stack moderne | NestJS, Prisma, PostGIS, Next.js |
 | [R-Type](https://github.com/Arjouan/rtype) | Remake multijoueur autoritaire du classique d'arcade de 1987, avec un ECS maison et un protocole binaire UDP | C++20, SFML |
 | [AREA](https://github.com/Arjouan/area) | Plateforme d'automatisation Action-Réaction (façon IFTTT) avec intégrations OAuth, hooks et planificateurs | FastAPI, Vue, Android |
 | [Zappy](https://github.com/Arjouan/zappy) | Jeu en réseau multijoueur : serveur, IA client et interface 2D via un protocole maison | C, C++ |
@@ -167,11 +170,7 @@ Plus de détails sur le [Portfolio](https://arjouan.github.io/Portfolio/projects
 ## Journal de vol
 
 <p align="center">
-  <img src="flight-log.svg" alt="Statistiques : dépôts publics, étoiles, contributions" width="100%" />
-</p>
-
-<p align="center">
-  git@github.com:Arjouan/Arjouan.git
+  <img src="flight-log.svg" alt="Journal de vol : 3 stages, 5 pays, 4 langues" width="100%" />
 </p>
 
 <p align="center">

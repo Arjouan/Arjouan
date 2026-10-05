@@ -1,4 +1,4 @@
-name: Update flight log stats
+name: Update flight manifest
 
 on:
   schedule:
@@ -18,16 +18,6 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Generate flight-log.svg
-        env:
-          GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
-        run: node scripts/generate-flight-log.mjs
-
-      - name: Generate header-stats.svg
-        env:
-          GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
-        run: node scripts/generate-header-stats.mjs
-
       - name: Generate flight-manifest cards
         env:
           GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
@@ -35,7 +25,7 @@ jobs:
 
       - name: Commit if changed
         run: |
-          FILES="flight-log.svg header-stats.svg flight-manifest-portfolio.svg flight-manifest-portfolio.fr.svg flight-manifest-epitech.svg flight-manifest-epitech.fr.svg"
+          FILES="flight-manifest-portfolio.svg flight-manifest-portfolio.fr.svg flight-manifest-epitech.svg flight-manifest-epitech.fr.svg"
           if git diff --quiet -- $FILES; then
             echo "No changes to commit"
             exit 0
@@ -43,5 +33,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add $FILES
-          git commit -m "[BOT] refresh flight log, header stats, and flight manifest"
+          git commit -m "[BOT] refresh flight manifest"
           git push
