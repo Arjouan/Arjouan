@@ -1,11 +1,18 @@
 // Static time-zone chip (a live clock goes stale because GitHub throttles scheduled Actions).
-// Edit CITIES and run `node scripts/generate-time-chip.mjs` to regenerate time-chip.svg.
-const CITIES = [
-  { name: "MARSEILLE", zone: "CET / CEST", sub: "UTC+1 · UTC+2 in summer" },
-  { name: "MONTREAL", zone: "EST / EDT", sub: "UTC−5 · UTC−4 in summer" },
-];
+// Edit CITIES and run `node scripts/generate-time-chip.mjs` to regenerate time-chip{.fr}{.mobile}.svg.
+const CITIES = {
+  en: [
+    { name: "MARSEILLE", zone: "CET / CEST", sub: "UTC+1 · UTC+2 in summer" },
+    { name: "MONTREAL", zone: "EST / EDT", sub: "UTC−5 · UTC−4 in summer" },
+  ],
+  fr: [
+    { name: "MARSEILLE", zone: "CET / CEST", sub: "UTC+1 · UTC+2 en été" },
+    { name: "MONTRÉAL", zone: "EST / EDT", sub: "UTC−5 · UTC−4 en été" },
+  ],
+};
+const TITLE = { en: ["TIME ZONES", "Time zones"], fr: ["FUSEAUX HORAIRES", "Fuseaux horaires"] };
 
-function renderSvg(cities) {
+function renderSvg(cities, lang) {
   const cardWidth = 260;
   const width = cardWidth * cities.length;
   const cells = cities
@@ -21,7 +28,7 @@ function renderSvg(cities) {
     })
     .join("");
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} 100" width="100%" role="img" aria-label="Time zones: ${cities.map((c) => `${c.name} ${c.zone}`).join(", ")}">
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} 100" width="100%" role="img" aria-label="${TITLE[lang][1]}: ${cities.map((c) => `${c.name} ${c.zone}`).join(", ")}">
   <defs>
     <linearGradient id="tcg" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#00c6ff"/>
@@ -30,14 +37,14 @@ function renderSvg(cities) {
     </linearGradient>
   </defs>
   <rect x="2" y="2" width="${width - 4}" height="96" rx="14" fill="#0d1117" stroke="url(#tcg)" stroke-width="2"/>
-  <text x="20" y="18" font-family="Courier New, monospace" font-size="10" letter-spacing="3" fill="#8b98a5">TIME ZONES</text>
+  <text x="20" y="18" font-family="Courier New, monospace" font-size="10" letter-spacing="3" fill="#8b98a5">${TITLE[lang][0]}</text>
   ${cells}
 </svg>
 `;
 }
 
 // Phones: the chip is shown at 60% width, so use a narrow canvas with cities stacked.
-function renderMobileSvg(cities) {
+function renderMobileSvg(cities, lang) {
   const rowH = 78;
   const height = 26 + rowH * cities.length;
   const rows = cities
@@ -52,7 +59,7 @@ function renderMobileSvg(cities) {
     </g>`;
     })
     .join("");
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 ${height}" width="100%" role="img" aria-label="Time zones: ${cities.map((c) => `${c.name} ${c.zone}`).join(", ")}">
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 ${height}" width="100%" role="img" aria-label="${TITLE[lang][1]}: ${cities.map((c) => `${c.name} ${c.zone}`).join(", ")}">
   <defs>
     <linearGradient id="tcgm" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#00c6ff"/>
@@ -61,19 +68,20 @@ function renderMobileSvg(cities) {
     </linearGradient>
   </defs>
   <rect x="2" y="2" width="216" height="${height - 4}" rx="14" fill="#0d1117" stroke="url(#tcgm)" stroke-width="2"/>
-  <text x="14" y="20" font-family="Courier New, monospace" font-size="10" letter-spacing="3" fill="#8b98a5">TIME ZONES</text>
+  <text x="14" y="20" font-family="Courier New, monospace" font-size="10" letter-spacing="3" fill="#8b98a5">${TITLE[lang][0]}</text>
   ${rows}
 </svg>
 `;
 }
 
 async function main() {
-  const svg = renderSvg(CITIES);
-  const mobile = renderMobileSvg(CITIES);
   const fs = await import("node:fs/promises");
-  await fs.writeFile(new URL("../time-chip.svg", import.meta.url), svg);
-  await fs.writeFile(new URL("../time-chip.mobile.svg", import.meta.url), mobile);
-  console.log("time-chip.svg updated");
+  for (const lang of ["en", "fr"]) {
+    const base = `../time-chip${lang === "fr" ? ".fr" : ""}`;
+    await fs.writeFile(new URL(`${base}.svg`, import.meta.url), renderSvg(CITIES[lang], lang));
+    await fs.writeFile(new URL(`${base}.mobile.svg`, import.meta.url), renderMobileSvg(CITIES[lang], lang));
+  }
+  console.log("time chips updated");
 }
 
 main().catch((err) => {

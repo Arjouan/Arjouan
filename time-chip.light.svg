@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 100" width="100%" role="img" aria-label="Time zones: MARSEILLE CET / CEST, MONTREAL EST / EDT">
+  <defs>
+    <linearGradient id="tcg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0080c0"/>
+      <stop offset="0.5" stop-color="#0059d6"/>
+      <stop offset="1" stop-color="#00995f"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="516" height="96" rx="14" fill="#ffffff" stroke="url(#tcg)" stroke-width="2"/>
+  <text x="20" y="18" font-family="Courier New, monospace" font-size="10" letter-spacing="3" fill="#59636e">TIME ZONES</text>
+  
+    <g transform="translate(0,0)">
+      <line x1="0" y1="14" x2="0" y2="86" stroke="#d0d7de" stroke-width="0" stroke-dasharray="4 4"/>
+      <text x="130" y="34" text-anchor="middle" font-family="Courier New, monospace" font-size="11" letter-spacing="2" fill="#00995f">MARSEILLE</text>
+      <text x="130" y="63" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#1f2328">CET / CEST</text>
+      <text x="130" y="80" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#59636e">UTC+1 · UTC+2 in summer</text>
+    </g>
+    <g transform="translate(260,0)">
+      <line x1="0" y1="14" x2="0" y2="86" stroke="#d0d7de" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <text x="130" y="34" text-anchor="middle" font-family="Courier New, monospace" font-size="11" letter-spacing="2" fill="#00995f">MONTREAL</text>
+      <text x="130" y="63" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#1f2328">EST / EDT</text>
+      <text x="130" y="80" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#59636e">UTC−5 · UTC−4 in summer</text>
+    </g>
+</svg>

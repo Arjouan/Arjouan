@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" width="200" role="img" aria-label="PROJETS EPITECH: EN TRANSIT - Projets du cursus ingénierie informatique, années 1 à 3">
+  <defs>
+    <linearGradient id="mcm-ep-fr" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0080c0"/>
+      <stop offset="1" stop-color="#00995f"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="196" height="146" rx="14" fill="#ffffff" stroke="url(#mcm-ep-fr)" stroke-width="2"/>
+  <text x="14" y="46" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" fill="#1f2328">PROJETS</text>
+  <text x="14" y="72" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" fill="#1f2328">EPITECH</text>
+  <line x1="14" y1="100" x2="186" y2="100" stroke="#d0d7de" stroke-width="1" stroke-dasharray="3 5"/>
+  <text x="14" y="126" font-family="Courier New, monospace" font-size="14" font-weight="700" fill="#0080c0">EN TRANSIT</text>
+</svg>

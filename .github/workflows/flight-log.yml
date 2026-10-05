@@ -1,4 +1,4 @@
-name: Update flight manifest
+name: Update flight manifest and radar
 
 on:
   schedule:
@@ -23,15 +23,23 @@ jobs:
           GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
         run: node scripts/generate-flight-manifest.mjs
 
+      - name: Generate flight radar
+        env:
+          GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/generate-flight-radar.mjs
+
+      - name: Generate light-mode variants
+        run: node scripts/generate-light-variants.mjs
+
       - name: Commit if changed
         run: |
-          FILES="flight-manifest-portfolio.svg flight-manifest-portfolio.fr.svg flight-manifest-epitech.svg flight-manifest-epitech.fr.svg flight-manifest-portfolio.mobile.svg flight-manifest-portfolio.fr.mobile.svg flight-manifest-epitech.mobile.svg flight-manifest-epitech.fr.mobile.svg"
-          if git diff --quiet -- $FILES; then
+          git add -A -- '*.svg'
+          if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add $FILES
-          git commit -m "[BOT] refresh flight manifest"
+          git commit -m "[BOT] refresh flight manifest and flight radar"
           git push

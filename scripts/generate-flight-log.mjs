@@ -1,12 +1,20 @@
 // Static profile highlights rendered as the Flight Log card.
-// Edit STATS and run `node scripts/generate-flight-log.mjs` to regenerate flight-log.svg.
-const STATS = [
-  { label: "INTERNSHIPS", sub: "REACTIS · BARJANE · CPAM", value: "3" },
-  { label: "COUNTRIES", sub: "lived in", value: "5" },
-  { label: "LANGUAGES", sub: "EN · FR · ES · ZH", value: "4" },
-];
+// Edit STATS and run `node scripts/generate-flight-log.mjs` to regenerate flight-log{.fr}{.mobile}.svg.
+const STATS = {
+  en: [
+    { label: "INTERNSHIPS", sub: "REACTIS · BARJANE · CPAM", value: "3" },
+    { label: "COUNTRIES", sub: "lived in", value: "5" },
+    { label: "LANGUAGES", sub: "EN · FR · ES · ZH", value: "4" },
+  ],
+  fr: [
+    { label: "STAGES", sub: "REACTIS · BARJANE · CPAM", value: "3" },
+    { label: "PAYS", sub: "où j'ai vécu", value: "5" },
+    { label: "LANGUES", sub: "EN · FR · ES · ZH", value: "4" },
+  ],
+};
+const TITLE = { en: "Flight log", fr: "Journal de vol" };
 
-function renderSvg(stats) {
+function renderSvg(stats, lang) {
   const cardWidth = 200;
   const cells = stats
     .map((s, i) => {
@@ -22,7 +30,7 @@ function renderSvg(stats) {
     .join("");
 
   const width = cardWidth * stats.length;
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} 120" width="100%" role="img" aria-label="Flight log: ${stats.map((s) => `${s.value} ${s.label.toLowerCase()}`).join(", ")}">
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} 120" width="100%" role="img" aria-label="${TITLE[lang]}: ${stats.map((s) => `${s.value} ${s.label.toLowerCase()}`).join(", ")}">
   <defs>
     <linearGradient id="flg" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#00c6ff"/>
@@ -37,7 +45,7 @@ function renderSvg(stats) {
 }
 
 // Phones: one stat per row so the numbers and labels stay legible.
-function renderMobileSvg(stats) {
+function renderMobileSvg(stats, lang) {
   const rowH = 64;
   const height = rowH * stats.length + 8;
   const rows = stats
@@ -52,7 +60,7 @@ function renderMobileSvg(stats) {
     </g>`;
     })
     .join("");
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 ${height}" width="100%" role="img" aria-label="Flight log: ${stats.map((s) => `${s.value} ${s.label.toLowerCase()}`).join(", ")}">
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 ${height}" width="100%" role="img" aria-label="${TITLE[lang]}: ${stats.map((s) => `${s.value} ${s.label.toLowerCase()}`).join(", ")}">
   <defs>
     <linearGradient id="flgm" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#00c6ff"/>
@@ -67,6 +75,9 @@ function renderMobileSvg(stats) {
 }
 
 const fs = await import("node:fs/promises");
-await fs.writeFile(new URL("../flight-log.svg", import.meta.url), renderSvg(STATS));
-await fs.writeFile(new URL("../flight-log.mobile.svg", import.meta.url), renderMobileSvg(STATS));
+for (const lang of ["en", "fr"]) {
+  const base = `../flight-log${lang === "fr" ? ".fr" : ""}`;
+  await fs.writeFile(new URL(`${base}.svg`, import.meta.url), renderSvg(STATS[lang], lang));
+  await fs.writeFile(new URL(`${base}.mobile.svg`, import.meta.url), renderMobileSvg(STATS[lang], lang));
+}
 console.log("flight-log.svg updated");

@@ -15,7 +15,7 @@
   <line x1="40" y1="90" x2="760" y2="90" stroke="#30363d" stroke-width="1.5" stroke-dasharray="10 6"/>
 
   <path class="motion" d="M-10 -6 L12 0 L-10 6 L-3 0 Z" fill="url(#bpf)">
-    <animateMotion dur="5s" repeatCount="indefinite" rotate="auto" path="M40 18 C560 8, 712 14, 740 88 L762 90"/>
+    <animateMotion dur="5s" repeatCount="indefinite" rotate="auto" path="M40 22 C170 22, 250 90, 380 90 L770 90"/>
   </path>
   <path class="still" d="M-10 -6 L12 0 L-10 6 L-3 0 Z" fill="url(#bpf)" transform="translate(752,90)"/>
 

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 130" width="420" role="img" aria-label="PROJETS EPITECH: EN TRANSIT - Projets du cursus ingénierie informatique, années 1 à 3">
+  <defs>
+    <linearGradient id="mc-ep-fr" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0080c0"/>
+      <stop offset="1" stop-color="#00995f"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="416" height="126" rx="14" fill="#ffffff" stroke="url(#mc-ep-fr)" stroke-width="2"/>
+  <text x="24" y="30" font-family="Courier New, monospace" font-size="11" letter-spacing="3" fill="#59636e">PROJET</text>
+  <text x="24" y="62" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#1f2328">PROJETS EPITECH</text>
+  <text x="24" y="86" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#59636e">Projets du cursus ingénierie informatique, années 1 à 3</text>
+  <line x1="24" y1="100" x2="396" y2="100" stroke="#d0d7de" stroke-width="1" stroke-dasharray="3 5"/>
+  <text x="24" y="118" font-family="Courier New, monospace" font-size="11" font-weight="700" letter-spacing="1.5" fill="#0080c0">STATUS: EN TRANSIT</text>
+  <text x="396" y="118" text-anchor="end" font-family="Courier New, monospace" font-size="9" letter-spacing="0.5" fill="#59636e">UPDATED Sep 20, 2026</text>
+</svg>

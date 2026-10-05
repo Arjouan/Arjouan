@@ -1,15 +1,27 @@
 <p align="center">
-  <img src="boarding-pass-header.fr.svg" alt="Carte d'embarquement : Arnaud Jouan, d'EPITECH vers McGill University" width="100%" />
-</p>
-
-<p align="center">
-  <img src="departure-board.fr.svg" alt="Tableau des départs : étudiant ingénieur 4e année à EPITECH, en échange à McGill en management" width="100%" />
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/boarding-pass-header.fr.mobile.light.svg" />
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/boarding-pass-header.fr.mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/boarding-pass-header.fr.light.svg" />
+    <img src="boarding-pass-header.fr.svg" alt="Carte d'embarquement : Arnaud Jouan, d'EPITECH vers McGill University" width="100%" />
+  </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/time-chip.mobile.svg" />
-    <img src="time-chip.svg" alt="Fuseaux horaires : Marseille CET/CEST, Montréal EST/EDT" width="60%" />
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/departure-board.fr.mobile.light.svg" />
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/departure-board.fr.mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/departure-board.fr.light.svg" />
+    <img src="departure-board.fr.svg" alt="Tableau des départs : étudiant ingénieur 4e année à EPITECH, en échange à McGill en management" width="100%" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/time-chip.fr.mobile.light.svg" />
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/time-chip.fr.mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/time-chip.fr.light.svg" />
+    <img src="time-chip.fr.svg" alt="Fuseaux horaires : Marseille CET/CEST, Montréal EST/EDT" width="60%" />
   </picture>
 </p>
 
@@ -19,14 +31,17 @@
 
 <p align="left">
   <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-about.fr.mobile.light.svg" />
     <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-about.fr.mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-about.fr.light.svg" />
     <img src="assets/gate-about.fr.svg" alt="À propos de moi" width="100%" />
   </picture>
 </p>
 
-<table>
-<tr>
-<td width="55%" valign="top">
+<picture>
+  <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/blank.svg" />
+  <img src="language-stamps.svg" alt="Page d'identité de passeport : langues anglais natif, français natif, espagnol élémentaire, chinois élémentaire" align="right" width="40%" />
+</picture>
 
 - Ouvert aux stages en ingénierie logicielle avec des équipes internationales
 - Actuellement à Montréal pour un échange d'un an à McGill University (port d'attache : Marseille, France)
@@ -36,52 +51,65 @@
 - Livraison de code Java en production chez REACTIS sur une application de maintenance aéronautique
 - Écrivez-moi à [arnaud.jouan@epitech.eu](mailto:arnaud.jouan@epitech.eu)
 
-</td>
-<td width="45%" valign="top">
+<br clear="all" />
 
-<img src="language-stamps.svg" alt="Page d'identité de passeport : langues anglais natif, français natif, espagnol élémentaire, chinois élémentaire" width="100%" />
-
-</td>
-</tr>
-</table>
+<picture>
+  <source media="(min-width: 601px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/blank.svg" />
+  <img src="language-stamps.svg" alt="" width="100%" />
+</picture>
 
 <p align="left">
   <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-journey.fr.mobile.light.svg" />
     <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-journey.fr.mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-journey.fr.light.svg" />
     <img src="assets/gate-journey.fr.svg" alt="Mon parcours" width="100%" />
   </picture>
 </p>
 
 <p align="center">
   <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/journey.fr.mobile.light.svg" />
     <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/journey.fr.mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/journey.fr.light.svg" />
     <img src="journey.fr.svg" alt="Itinéraire sur une carte du monde : Singapour, Vietnam, Australie, France, Canada" width="100%" />
   </picture>
 </p>
 
 <p align="left">
   <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-stack.fr.mobile.light.svg" />
     <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-stack.fr.mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-stack.fr.light.svg" />
     <img src="assets/gate-stack.fr.svg" alt="Technologies" width="100%" />
   </picture>
 </p>
 
 <p align="center">
   <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/luggage-tags.fr.mobile.light.svg" />
     <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/luggage-tags.fr.mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/luggage-tags.fr.light.svg" />
     <img src="assets/luggage-tags.fr.svg" alt="Stack technique en étiquettes de bagage. Bagage principal : C, C++, Java, Python. Enregistrement (en cours) : NestJS, Next.js, Prisma, PostgreSQL, Neo4j. Bagage cabine : HTML5, CSS3, Node.js, MySQL, Linux, VS Code, PowerShell, WordPress" width="100%" />
   </picture>
 </p>
 
 <p align="left">
   <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-internships.fr.mobile.light.svg" />
     <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-internships.fr.mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-internships.fr.light.svg" />
     <img src="assets/gate-internships.fr.svg" alt="Expérience en stage" width="100%" />
   </picture>
 </p>
 
 <p align="center">
-  <img src="passport-stamps.svg" alt="Tampons de stage : REACTIS, BARJANE, CPAM" width="80%" />
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/passport-stamps.mobile.light.svg" />
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/passport-stamps.mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/passport-stamps.light.svg" />
+    <img src="passport-stamps.svg" alt="Tampons de stage : REACTIS, BARJANE, CPAM" width="80%" />
+  </picture>
 </p>
 
 <h3>REACTIS Group</h3>
@@ -139,7 +167,9 @@
 
 <p align="left">
   <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-manifest.fr.mobile.light.svg" />
     <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-manifest.fr.mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-manifest.fr.light.svg" />
     <img src="assets/gate-manifest.fr.svg" alt="Manifeste de vol" width="100%" />
   </picture>
 </p>
@@ -147,13 +177,17 @@
 <p align="left">
   <a href="https://github.com/Arjouan/Meridian">
     <picture>
+      <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/project-meridian.fr.mobile.light.svg" />
       <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/project-meridian.fr.mobile.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/project-meridian.fr.light.svg" />
       <img src="assets/project-meridian.fr.svg" alt="Meridian" width="49%" />
     </picture>
   </a>
   <a href="https://github.com/Arjouan/rtype">
     <picture>
+      <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/project-rtype.fr.mobile.light.svg" />
       <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/project-rtype.fr.mobile.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/project-rtype.fr.light.svg" />
       <img src="assets/project-rtype.fr.svg" alt="R-Type" width="49%" />
     </picture>
   </a>
@@ -162,13 +196,17 @@
 <p align="left">
   <a href="https://github.com/Arjouan/area">
     <picture>
+      <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/project-area.fr.mobile.light.svg" />
       <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/project-area.fr.mobile.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/project-area.fr.light.svg" />
       <img src="assets/project-area.fr.svg" alt="AREA" width="49%" />
     </picture>
   </a>
   <a href="https://github.com/Arjouan/zappy">
     <picture>
+      <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/project-zappy.fr.mobile.light.svg" />
       <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/project-zappy.fr.mobile.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/project-zappy.fr.light.svg" />
       <img src="assets/project-zappy.fr.svg" alt="Zappy" width="49%" />
     </picture>
   </a>
@@ -177,13 +215,17 @@
 <p align="left">
   <a href="https://arjouan.github.io/Portfolio/">
     <picture>
+      <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/flight-manifest-portfolio.fr.mobile.light.svg" />
       <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/flight-manifest-portfolio.fr.mobile.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/flight-manifest-portfolio.fr.light.svg" />
       <img src="flight-manifest-portfolio.fr.svg" alt="Portfolio : en ligne" width="49%" />
     </picture>
   </a>
   <a href="https://github.com/Arjouan?tab=repositories">
     <picture>
+      <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/flight-manifest-epitech.fr.mobile.light.svg" />
       <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/flight-manifest-epitech.fr.mobile.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/flight-manifest-epitech.fr.light.svg" />
       <img src="flight-manifest-epitech.fr.svg" alt="Projets EPITECH : en préparation" width="49%" />
     </picture>
   </a>
@@ -199,40 +241,72 @@ Plus de détails sur le [Portfolio](https://arjouan.github.io/Portfolio/projects
 
 <p align="left">
   <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-connect.fr.mobile.light.svg" />
     <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-connect.fr.mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-connect.fr.light.svg" />
     <img src="assets/gate-connect.fr.svg" alt="Me contacter" width="100%" />
   </picture>
 </p>
 
 <p align="left">
   <a href="https://discord.com/users/super.45">
-    <img src="connect-discord.svg" alt="Discord" />
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/connect-discord.light.svg" />
+      <img src="connect-discord.svg" alt="Discord" />
+    </picture>
   </a>
   <a href="https://github.com/Arjouan">
-    <img src="connect-github.svg" alt="GitHub" />
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/connect-github.light.svg" />
+      <img src="connect-github.svg" alt="GitHub" />
+    </picture>
   </a>
   <a href="https://arjouan.github.io/Portfolio/">
-    <img src="connect-portfolio.svg" alt="Portfolio" />
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/connect-portfolio.light.svg" />
+      <img src="connect-portfolio.svg" alt="Portfolio" />
+    </picture>
   </a>
   <a href="https://www.linkedin.com/in/arnaud-jouan-613a53263">
-    <img src="connect-linkedin.svg" alt="LinkedIn" />
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/connect-linkedin.light.svg" />
+      <img src="connect-linkedin.svg" alt="LinkedIn" />
+    </picture>
   </a>
 </p>
 
 <p align="left">
   <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-log.fr.mobile.light.svg" />
     <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-log.fr.mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/assets/gate-log.fr.light.svg" />
     <img src="assets/gate-log.fr.svg" alt="Journal de vol" width="100%" />
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/flight-log.mobile.svg" />
-    <img src="flight-log.svg" alt="Journal de vol : 3 stages, 5 pays, 4 langues" width="100%" />
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/flight-log.fr.mobile.light.svg" />
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/flight-log.fr.mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/flight-log.fr.light.svg" />
+    <img src="flight-log.fr.svg" alt="Journal de vol : 3 stages, 5 pays, 4 langues" width="100%" />
   </picture>
 </p>
 
 <p align="center">
-  <img src="boarding-pass-footer.fr.svg" alt="Pied de page : merci de votre visite" width="100%" />
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/flight-radar.fr.mobile.light.svg" />
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/flight-radar.fr.mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/flight-radar.fr.light.svg" />
+    <img src="flight-radar.fr.svg" alt="Radar de vol : contributions sur les 12 derniers mois" width="100%" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/boarding-pass-footer.fr.mobile.light.svg" />
+    <source media="(max-width: 600px)" srcset="https://github.com/Arjouan/Arjouan/raw/main/boarding-pass-footer.fr.mobile.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Arjouan/Arjouan/raw/main/boarding-pass-footer.fr.light.svg" />
+    <img src="boarding-pass-footer.fr.svg" alt="Pied de page : merci de votre visite" width="100%" />
+  </picture>
 </p>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 300" width="100%" role="img" aria-label="Carte d'embarquement d'Arnaud Jouan, d'EPITECH vers McGill University">
+  <defs>
+    <linearGradient id="bpm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00c6ff"/>
+      <stop offset="0.5" stop-color="#0072ff"/>
+      <stop offset="1" stop-color="#00f5a0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .still { display: none; }
+    @media (prefers-reduced-motion: reduce) { .motion { display: none; } .still { display: inline; } }
+  </style>
+  <style>
+    .shimmer { animation: sweep 1.8s ease-in-out 0.5s both; }
+    @keyframes sweep { from { transform: translateX(0) skewX(-20deg); } to { transform: translateX(680px) skewX(-20deg); } }
+    @media (prefers-reduced-motion: reduce) { .shimmer { display: none; } }
+  </style>
+  <defs>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect x="2" y="2" width="376" height="296" rx="18"/></clipPath>
+  </defs>
+  <rect x="2" y="2" width="376" height="296" rx="18" fill="#0d1117" stroke="url(#bpm)" stroke-width="2"/>
+  <text x="22" y="36" font-family="Courier New, monospace" font-size="13" letter-spacing="3" fill="#00f5a0">CARTE D'EMBARQUEMENT</text>
+  <text x="22" y="74" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#f0f6fc">ARNAUD JOUAN</text>
+  <text x="22" y="96" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#8b98a5">INGÉNIEUR LOGICIEL · 4E ANNÉE À EPITECH</text>
+
+  <text x="22" y="142" font-family="Courier New, monospace" font-size="22" font-weight="700" fill="#00c6ff">EPITECH</text>
+  <text x="22" y="160" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8b98a5">MARSEILLE, FRANCE</text>
+  <text x="358" y="142" text-anchor="end" font-family="Courier New, monospace" font-size="22" font-weight="700" fill="#00f5a0">MCGILL</text>
+  <text x="358" y="160" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#8b98a5">MONTRÉAL, CANADA</text>
+  <line x1="132" y1="135" x2="262" y2="135" stroke="#30363d" stroke-width="1.5" stroke-dasharray="2 6"/>
+  <path class="motion" d="M-9 -5 L9 0 L-9 5 L-3 0 Z" fill="url(#bpm)">
+    <animateMotion dur="4.5s" repeatCount="indefinite" rotate="auto" path="M132 135 L262 135"/>
+  </path>
+  <path class="still" d="M-9 -5 L9 0 L-9 5 L-3 0 Z" fill="url(#bpm)" transform="translate(197,135)"/>
+
+  <line x1="14" y1="182" x2="366" y2="182" stroke="#30363d" stroke-width="2" stroke-dasharray="7 7"/>
+  <text x="22" y="210" font-family="Courier New, monospace" font-size="11" letter-spacing="2" fill="#8b98a5">SIÈGE</text>
+  <text x="22" y="232" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#f0f6fc">4A</text>
+  <text x="100" y="210" font-family="Courier New, monospace" font-size="11" letter-spacing="2" fill="#8b98a5">CLASSE</text>
+  <text x="100" y="232" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#f0f6fc">ÉCHANGE MANAGEMENT</text>
+  <text x="22" y="262" font-family="Courier New, monospace" font-size="11" letter-spacing="2" fill="#8b98a5">STATUT</text>
+  <text x="22" y="284" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffb000">OUVERT AUX STAGES</text>
+  <g clip-path="url(#card)"><rect class="shimmer" x="-200" y="-60" width="120" height="420" fill="url(#shine)"/></g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 200" width="100%" role="img" aria-label="Pied de page : merci de votre escale">
+  <defs>
+    <linearGradient id="bpfm" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00c6ff"/>
+      <stop offset="0.5" stop-color="#0072ff"/>
+      <stop offset="1" stop-color="#00f5a0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .still { display: none; }
+    @media (prefers-reduced-motion: reduce) { .motion { display: none; } .still { display: inline; } }
+  </style>
+  <rect x="2" y="2" width="376" height="196" rx="18" fill="#0d1117" stroke="url(#bpfm)" stroke-width="2"/>
+  <line x1="20" y1="172" x2="360" y2="172" stroke="#30363d" stroke-width="1.5" stroke-dasharray="10 6"/>
+  <path class="motion" d="M-10 -6 L12 0 L-10 6 L-3 0 Z" fill="url(#bpfm)">
+    <animateMotion dur="5s" repeatCount="indefinite" rotate="auto" path="M24 26 C110 26, 140 172, 200 172 L350 172"/>
+  </path>
+  <path class="still" d="M-10 -6 L12 0 L-10 6 L-3 0 Z" fill="url(#bpfm)" transform="translate(340,172)"/>
+  <text x="190" y="76" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#f0f6fc">Merci de votre escale</text>
+  <text x="190" y="126" text-anchor="middle" font-family="Courier New, monospace" font-size="12" letter-spacing="2" fill="#8b98a5">PROCHAINE DESTINATION :</text>
+  <text x="190" y="144" text-anchor="middle" font-family="Courier New, monospace" font-size="12" letter-spacing="2" fill="#8b98a5">VOTRE BOÎTE MAIL</text>
+</svg>

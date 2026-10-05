@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 44" width="100%" role="img" aria-label="PORTE A1 · À PROPOS">
+  <defs>
+    <linearGradient id="gh-about-fr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0080c0"/>
+      <stop offset="0.5" stop-color="#0059d6"/>
+      <stop offset="1" stop-color="#00995f"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="398" height="42" rx="10" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+  <rect x="1" y="1" width="95.2" height="42" rx="10" fill="#a86400"/>
+  <rect x="85.2" y="1" width="10" height="42" fill="#a86400"/>
+  <text x="48.6" y="27" text-anchor="middle" font-family="Courier New, monospace" font-size="14" font-weight="700" letter-spacing="1" fill="#ffffff">PORTE A1</text>
+  <text x="113.2" y="28" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="2" fill="#1f2328">À PROPOS</text>
+  <line x1="230" y1="22" x2="352" y2="22" stroke="#d0d7de" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <g transform="translate(-500,0)"><path d="M858 20.5 L872 20.5 L880 13 L883 13 L879 20.5 L886 20.5 L889 17 L891 17 L889.5 22 L891 27 L889 27 L886 23.5 L879 23.5 L883 31 L880 31 L872 23.5 L858 23.5 Z" fill="url(#gh-about-fr)" transform="matrix(-1 0 0 1 1749 0)"/></g>
+</svg>

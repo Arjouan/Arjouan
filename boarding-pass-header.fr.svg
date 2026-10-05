@@ -5,10 +5,18 @@
       <stop offset="0.5" stop-color="#0072ff"/>
       <stop offset="1" stop-color="#00f5a0"/>
     </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect x="2" y="2" width="896" height="230" rx="18"/></clipPath>
   </defs>
   <style>
     .still { display: none; }
-    @media (prefers-reduced-motion: reduce) { .motion { display: none; } .still { display: inline; } }
+    .shimmer { animation: sweep 1.8s ease-in-out 0.5s both; }
+    @keyframes sweep { from { transform: translateX(0) skewX(-20deg); } to { transform: translateX(1400px) skewX(-20deg); } }
+    @media (prefers-reduced-motion: reduce) { .motion { display: none; } .still { display: inline; } .shimmer { display: none; } }
   </style>
 
   <rect x="2" y="2" width="896" height="230" rx="18" fill="#0d1117" stroke="url(#bphfr)" stroke-width="2"/>
@@ -107,4 +115,5 @@
     <rect x="852.44" y="196" width="1.56" height="14"/>
   </g>
   <text x="762" y="219" text-anchor="middle" font-family="Courier New, monospace" font-size="7" letter-spacing="1" fill="#8b98a5">GITHUB.COM/ARJOUAN</text>
+  <g clip-path="url(#card)"><rect class="shimmer" x="-300" y="-60" width="180" height="360" fill="url(#shine)"/></g>
 </svg>
